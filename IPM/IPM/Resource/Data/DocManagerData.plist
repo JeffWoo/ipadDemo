@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>文档名称</key>
+	<array>
+		<string>资源项目管理流程指导</string>
+		<string>跟进情况操作指南</string>
+		<string>资源项目管理流程指导</string>
+		<string>跟进情况操作指南</string>
+		<string>资源项目管理流程指导</string>
+	</array>
+	<key>文档类型</key>
+	<array>
+		<string>doc</string>
+		<string>pdf</string>
+		<string>doc</string>
+		<string>pdf</string>
+		<string>doc</string>
+	</array>
+	<key>创建人</key>
+	<array>
+		<string>林部长</string>
+		<string>陈局长</string>
+		<string>林部长</string>
+		<string>陈局长</string>
+		<string>林部长</string>
+	</array>
+	<key>创建时间</key>
+	<array>
+		<string>2013-2-18</string>
+		<string>2013-2-18</string>
+		<string>2013-2-18</string>
+		<string>2013-2-18</string>
+		<string>2013-2-18</string>
+	</array>
+</dict>
+</plist>
