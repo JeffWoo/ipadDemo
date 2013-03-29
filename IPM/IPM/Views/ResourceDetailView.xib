@@ -228,13 +228,14 @@
 									<int key="NSColorSpace">3</int>
 									<bytes key="NSWhite">MQA</bytes>
 								</object>
-								<object class="NSColor" key="IBUINormalTitleColor">
-									<int key="NSColorSpace">1</int>
-									<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
-								</object>
+								<reference key="IBUINormalTitleColor" ref="1000127262"/>
 								<object class="NSColor" key="IBUINormalTitleShadowColor" id="476815085">
 									<int key="NSColorSpace">3</int>
 									<bytes key="NSWhite">MC41AA</bytes>
+								</object>
+								<object class="NSCustomResource" key="IBUINormalBackgroundImage" id="602575035">
+									<string key="NSClassName">NSImage</string>
+									<string key="NSResourceName">orange_button_bg.png</string>
 								</object>
 								<object class="IBUIFontDescription" key="IBUIFontDescription" id="339329352">
 									<int key="type">2</int>
@@ -261,11 +262,9 @@
 								<int key="IBUIButtonType">1</int>
 								<string key="IBUINormalTitle">认证</string>
 								<reference key="IBUIHighlightedTitleColor" ref="1000127262"/>
-								<object class="NSColor" key="IBUINormalTitleColor">
-									<int key="NSColorSpace">1</int>
-									<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
-								</object>
+								<reference key="IBUINormalTitleColor" ref="1000127262"/>
 								<reference key="IBUINormalTitleShadowColor" ref="476815085"/>
+								<reference key="IBUINormalBackgroundImage" ref="602575035"/>
 								<reference key="IBUIFontDescription" ref="339329352"/>
 								<reference key="IBUIFont" ref="72821991"/>
 							</object>
@@ -1317,10 +1316,10 @@ ICAgICAgIOmhueaJi+e7rei0ue+8miAw5YWDA</string>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBIPadFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">pic1.jpg</string>
-			<string key="NS.object.0">{950, 716}</string>
-		</object>
+		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
+			<string key="orange_button_bg.png">{187, 71}</string>
+			<string key="pic1.jpg">{950, 716}</string>
+		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">2083</string>
 	</data>
 </archive>

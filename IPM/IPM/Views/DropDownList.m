@@ -79,7 +79,6 @@
     UITableView *optionTable = [[UITableView alloc] initWithFrame:tagPopoverView.bounds style:UITableViewStylePlain];
     optionTable.delegate = self;
     optionTable.dataSource = self;
-    optionTable.backgroundColor = [UIColor clearColor];
     [tagPopoverView addSubview:optionTable];
     [optionTable release];
     

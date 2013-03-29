@@ -77,6 +77,12 @@
 		BFABCFE317009B3A0052AB04 /* ClientDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFABCFE117009B320052AB04 /* ClientDetailViewController.m */; };
 		BFABCFE417009B3A0052AB04 /* ClientDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFABCFE217009B340052AB04 /* ClientDetailViewController.xib */; };
 		BFABCFE61700A56A0052AB04 /* selected_button_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BFABCFE51700A56A0052AB04 /* selected_button_bg.png */; };
+		BFADC5FF1705E0B60053D072 /* detail_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFADC5FA1705E0B60053D072 /* detail_bg.jpg */; };
+		BFADC6001705E0B60053D072 /* header_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BFADC5FB1705E0B60053D072 /* header_bg.png */; };
+		BFADC6011705E0B60053D072 /* main_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFADC5FC1705E0B60053D072 /* main_bg.jpg */; };
+		BFADC6021705E0B60053D072 /* search_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BFADC5FD1705E0B60053D072 /* search_bg.png */; };
+		BFADC6031705E0B60053D072 /* search_button_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BFADC5FE1705E0B60053D072 /* search_button_bg.png */; };
+		BFADC6051705E5C10053D072 /* orange_button_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BFADC6041705E5C10053D072 /* orange_button_bg.png */; };
 		BFADDB8716FE0E0D00662627 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFADDB8616FE0E0D00662627 /* UIKit.framework */; };
 		BFADDB8916FE0E0D00662627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFADDB8816FE0E0D00662627 /* Foundation.framework */; };
 		BFADDB8B16FE0E0D00662627 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFADDB8A16FE0E0D00662627 /* CoreGraphics.framework */; };
@@ -256,6 +262,12 @@
 		BFABCFE117009B320052AB04 /* ClientDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientDetailViewController.m; sourceTree = "<group>"; };
 		BFABCFE217009B340052AB04 /* ClientDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClientDetailViewController.xib; sourceTree = "<group>"; };
 		BFABCFE51700A56A0052AB04 /* selected_button_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected_button_bg.png; sourceTree = "<group>"; };
+		BFADC5FA1705E0B60053D072 /* detail_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = detail_bg.jpg; sourceTree = "<group>"; };
+		BFADC5FB1705E0B60053D072 /* header_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header_bg.png; sourceTree = "<group>"; };
+		BFADC5FC1705E0B60053D072 /* main_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main_bg.jpg; sourceTree = "<group>"; };
+		BFADC5FD1705E0B60053D072 /* search_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_bg.png; sourceTree = "<group>"; };
+		BFADC5FE1705E0B60053D072 /* search_button_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_button_bg.png; sourceTree = "<group>"; };
+		BFADC6041705E5C10053D072 /* orange_button_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_button_bg.png; sourceTree = "<group>"; };
 		BFADDB8316FE0E0D00662627 /* IPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFADDB8616FE0E0D00662627 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFADDB8816FE0E0D00662627 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -531,6 +543,7 @@
 			isa = PBXGroup;
 			children = (
 				BFABCF5516FF9D2B0052AB04 /* dropdown_bg.png */,
+				BFADC6041705E5C10053D072 /* orange_button_bg.png */,
 				BFABCF8E170050720052AB04 /* btn_bg_grey.png */,
 				BFABCFE51700A56A0052AB04 /* selected_button_bg.png */,
 				BFADDBAD16FE0E7900662627 /* Switcher */,
@@ -694,6 +707,11 @@
 				BFADDC3416FE3FAC00662627 /* setting.png */,
 				BFADDC3516FE3FAC00662627 /* sync.png */,
 				BFABCF5316FF97E70052AB04 /* doc_manager.png */,
+				BFADC5FA1705E0B60053D072 /* detail_bg.jpg */,
+				BFADC5FB1705E0B60053D072 /* header_bg.png */,
+				BFADC5FC1705E0B60053D072 /* main_bg.jpg */,
+				BFADC5FD1705E0B60053D072 /* search_bg.png */,
+				BFADC5FE1705E0B60053D072 /* search_button_bg.png */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -854,6 +872,12 @@
 				BFABCFB217007C490052AB04 /* ResourceMapView.xib in Resources */,
 				BFABCFE417009B3A0052AB04 /* ClientDetailViewController.xib in Resources */,
 				BFABCFE61700A56A0052AB04 /* selected_button_bg.png in Resources */,
+				BFADC5FF1705E0B60053D072 /* detail_bg.jpg in Resources */,
+				BFADC6001705E0B60053D072 /* header_bg.png in Resources */,
+				BFADC6011705E0B60053D072 /* main_bg.jpg in Resources */,
+				BFADC6021705E0B60053D072 /* search_bg.png in Resources */,
+				BFADC6031705E0B60053D072 /* search_button_bg.png in Resources */,
+				BFADC6051705E5C10053D072 /* orange_button_bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

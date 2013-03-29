@@ -64,8 +64,6 @@
     self.tableView.backgroundColor = [UIColor whiteColor];
     self.tableView.topHeaderBackgroundColor = [UIColor colorWithRed:243.0/255.0 green:243.0/255.0 blue:243.0/255.0 alpha:1.0];
     
-    self.tableView.boldSeperatorLineColor = [UIColor darkGrayColor];
-    self.tableView.normalSeperatorLineColor = [UIColor darkGrayColor];
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     self.tableView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
@@ -141,7 +139,7 @@
             break;
             
         case 3:
-            width = 175;
+            width = 190;
             break;
             
         default:

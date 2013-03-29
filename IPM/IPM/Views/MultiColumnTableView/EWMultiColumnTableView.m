@@ -134,6 +134,9 @@
         tblView.backgroundColor = [UIColor clearColor];
         [scrlView addSubview:tblView];
         
+        self.boldSeperatorLineColor = [UIColor colorWithWhite:0.8 alpha:0.3];
+        self.normalSeperatorLineColor = [UIColor colorWithWhite:0.8 alpha:0.3];
+        
         UILongPressGestureRecognizer *recognizer = [[[UILongPressGestureRecognizer alloc] 
                                                      initWithTarget:self action:@selector(columnLongPressed:)] autorelease];
         recognizer.minimumPressDuration = 1.0;
