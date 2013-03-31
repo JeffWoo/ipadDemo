@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>客户名称</key>
+	<array>
+		<string>朴元晋</string>
+		<string>华威达电子科技有限公司</string>
+		<string>广州中科天元能源科技有限公司</string>
+		<string>朴元晋</string>
+		<string>华威达电子科技有限公司</string>
+		<string>广州中科天元能源科技有限公司</string>
+		<string>朴元晋</string>
+		<string>华威达电子科技有限公司</string>
+	</array>
+	<key>行业</key>
+	<array>
+		<string>教育、文化娱乐、广播影视</string>
+		<string>房地产</string>
+		<string>科研 综合技术服务</string>
+		<string>教育、文化娱乐、广播影视</string>
+		<string>房地产</string>
+		<string>教育、文化娱乐、广播影视</string>
+		<string>房地产</string>
+		<string>教育、文化娱乐、广播影视</string>
+	</array>
+	<key>客户来源</key>
+	<array>
+		<string>亚洲</string>
+		<string>港澳</string>
+		<string>中国大陆</string>
+		<string>港澳</string>
+		<string>中国大陆</string>
+		<string>亚洲</string>
+		<string>港澳</string>
+		<string>中国大陆</string>
+	</array>
+	<key>更新时间</key>
+	<array>
+		<string>2012-12-12</string>
+		<string>2012-12-12</string>
+		<string>2012-12-12</string>
+		<string>2012-12-12</string>
+		<string>2012-12-12</string>
+		<string>2012-12-12</string>
+		<string>2012-12-12</string>
+		<string>2012-12-12</string>
+	</array>
+</dict>
+</plist>
