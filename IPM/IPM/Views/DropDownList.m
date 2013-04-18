@@ -21,7 +21,9 @@
         [dropdownButton setBackgroundImage:[UIImage imageNamed:@"dropdown_bg"] forState:UIControlStateNormal];
         [dropdownButton setTitle:@"--请选择--" forState:UIControlStateNormal];
         dropdownButton.titleLabel.font = [UIFont boldSystemFontOfSize:15];
-        dropdownButton.titleLabel.textColor = [UIColor blackColor];
+//        dropdownButton.titleLabel.textColor = [UIColor blackColor];
+        [dropdownButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [dropdownButton setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
         
         [dropdownButton addTarget:self action:@selector(toggleDropdown:forEvent:) forControlEvents:UIControlEventTouchUpInside];
         dropdownButton.tag = 123;
@@ -43,7 +45,9 @@
         [dropdownButton setBackgroundImage:[UIImage imageNamed:@"dropdown_bg"] forState:UIControlStateNormal];
         [dropdownButton setTitle:@"--请选择--" forState:UIControlStateNormal];
         dropdownButton.titleLabel.font = [UIFont boldSystemFontOfSize:15];
-        dropdownButton.titleLabel.textColor = [UIColor blackColor];
+//        dropdownButton.titleLabel.textColor = [UIColor blackColor];
+        [dropdownButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [dropdownButton setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
         
         [dropdownButton addTarget:self action:@selector(toggleDropdown:forEvent:) forControlEvents:UIControlEventTouchUpInside];
         dropdownButton.tag = 123;
