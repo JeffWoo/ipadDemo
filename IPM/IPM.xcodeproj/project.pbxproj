@@ -10,6 +10,9 @@
 		BF0F9B39170BD379008BEB55 /* info_content_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0F9B37170BD379008BEB55 /* info_content_bg.png */; };
 		BF0F9B3A170BD379008BEB55 /* info_header_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0F9B38170BD379008BEB55 /* info_header_bg.png */; };
 		BF836B301720348B00F1E5E6 /* main_title_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF836B2F1720348B00F1E5E6 /* main_title_bg.jpg */; };
+		BF836B33172043D700F1E5E6 /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF836B32172043D600F1E5E6 /* RadioButton.m */; };
+		BF836B361720441700F1E5E6 /* cc_radio_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BF836B341720441700F1E5E6 /* cc_radio_selected.png */; };
+		BF836B371720441700F1E5E6 /* cc_radio_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = BF836B351720441700F1E5E6 /* cc_radio_unselected.png */; };
 		BFABCF2216FED6030052AB04 /* DropDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = BFABCF2116FED6030052AB04 /* DropDownList.m */; };
 		BFABCF2516FED9C30052AB04 /* ProjectBaseInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFABCF2416FED9C30052AB04 /* ProjectBaseInfoView.m */; };
 		BFABCF2716FED9D60052AB04 /* ProjectBaseInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFABCF2616FED9D60052AB04 /* ProjectBaseInfoView.xib */; };
@@ -157,6 +160,10 @@
 		BF0F9B37170BD379008BEB55 /* info_content_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_content_bg.png; sourceTree = "<group>"; };
 		BF0F9B38170BD379008BEB55 /* info_header_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_header_bg.png; sourceTree = "<group>"; };
 		BF836B2F1720348B00F1E5E6 /* main_title_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main_title_bg.jpg; sourceTree = "<group>"; };
+		BF836B31172043D600F1E5E6 /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
+		BF836B32172043D600F1E5E6 /* RadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
+		BF836B341720441700F1E5E6 /* cc_radio_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cc_radio_selected.png; sourceTree = "<group>"; };
+		BF836B351720441700F1E5E6 /* cc_radio_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cc_radio_unselected.png; sourceTree = "<group>"; };
 		BFABCF2016FED6030052AB04 /* DropDownList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownList.h; sourceTree = "<group>"; };
 		BFABCF2116FED6030052AB04 /* DropDownList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownList.m; sourceTree = "<group>"; };
 		BFABCF2316FED9C30052AB04 /* ProjectBaseInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectBaseInfoView.h; sourceTree = "<group>"; };
@@ -549,6 +556,8 @@
 			isa = PBXGroup;
 			children = (
 				BFABCF5516FF9D2B0052AB04 /* dropdown_bg.png */,
+				BF836B341720441700F1E5E6 /* cc_radio_selected.png */,
+				BF836B351720441700F1E5E6 /* cc_radio_unselected.png */,
 				BFADC6041705E5C10053D072 /* orange_button_bg.png */,
 				BFABCF8E170050720052AB04 /* btn_bg_grey.png */,
 				BFABCFE51700A56A0052AB04 /* selected_button_bg.png */,
@@ -591,6 +600,8 @@
 				BFADDBF116FE0E7F00662627 /* MultiColumnTableView */,
 				BFABCF2016FED6030052AB04 /* DropDownList.h */,
 				BFABCF2116FED6030052AB04 /* DropDownList.m */,
+				BF836B31172043D600F1E5E6 /* RadioButton.h */,
+				BF836B32172043D600F1E5E6 /* RadioButton.m */,
 				BFABCF2316FED9C30052AB04 /* ProjectBaseInfoView.h */,
 				BFABCF2416FED9C30052AB04 /* ProjectBaseInfoView.m */,
 				BFABCF2616FED9D60052AB04 /* ProjectBaseInfoView.xib */,
@@ -890,6 +901,8 @@
 				BF0F9B39170BD379008BEB55 /* info_content_bg.png in Resources */,
 				BF0F9B3A170BD379008BEB55 /* info_header_bg.png in Resources */,
 				BF836B301720348B00F1E5E6 /* main_title_bg.jpg in Resources */,
+				BF836B361720441700F1E5E6 /* cc_radio_selected.png in Resources */,
+				BF836B371720441700F1E5E6 /* cc_radio_unselected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -955,6 +968,7 @@
 				BFABCFDA1700978E0052AB04 /* SBJsonParser.m in Sources */,
 				BFABCFDB1700978E0052AB04 /* SBJsonWriter.m in Sources */,
 				BFABCFE317009B3A0052AB04 /* ClientDetailViewController.m in Sources */,
+				BF836B33172043D700F1E5E6 /* RadioButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
