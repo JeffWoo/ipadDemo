@@ -23,11 +23,15 @@
 {
     self = [super initWithCoder:aDecoder];
     if (self) {
-        self.signStatusSwitch.offText = @"未签";
-        self.signStatusSwitch.onText = @"已签";
+        
     }
     
     return self;
+}
+
+- (void)setupView
+{
+    [self.signStatusSwitch setupWithTitles:[NSArray arrayWithObjects:@"未签", @"已签", nil] selectedIndex:0];
 }
 
 

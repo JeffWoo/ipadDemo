@@ -342,7 +342,7 @@
         popoverX = senderPoint.x - (popoverWidth/2);
         if(popoverX < kOuterMargin) {
             popoverX = kOuterMargin;
-        } else if((popoverX + popoverWidth)>self.view.frame.size.width) {
+        } else if((popoverX + popoverWidth)>1024) { //原本是self.view.frame.width，但是横屏后宽高对换了
             popoverX = self.view.frame.size.width - (popoverWidth+kOuterMargin);
         }
         
