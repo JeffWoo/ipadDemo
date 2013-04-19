@@ -32,6 +32,8 @@
 - (void)setupView
 {
     [self.signStatusSwitch setupWithTitles:[NSArray arrayWithObjects:@"未签", @"已签", nil] selectedIndex:0];
+    self.plistContainerView = [self viewWithTag:1234];
+    self.labeling = @"项目信息";
 }
 
 

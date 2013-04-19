@@ -79,6 +79,15 @@
 
 - (void)toggleDropdown:(UIButton *)sender forEvent:(UIEvent *)event
 {
+//    int senderY = 0;
+//    UIView *iterView = sender;
+//    while (iterView.superview) {
+//        senderY += iterView.superview.frame.origin.y;
+//        iterView = iterView.superview;
+//    }
+//    senderY += sender.frame.origin.y;
+//    
+//    int height = senderY > 600 ? 80 : 120;
     UIView *tagPopoverView = [[UIView alloc] initWithFrame:CGRectMake(0,0, self.bounds.size.width, 120)];
     tagPopoverView.backgroundColor = [UIColor lightGrayColor];
     

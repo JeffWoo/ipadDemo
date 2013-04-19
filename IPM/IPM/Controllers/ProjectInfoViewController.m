@@ -75,6 +75,7 @@
     [self.view addSubview:_resourceInfoView];
     
     _projectDocView = [[[NSBundle mainBundle] loadNibNamed:@"ProjectDocView" owner:self options:nil] objectAtIndex:0];
+    [_projectDocView setupView];
     _projectDocView.hidden = YES;
     [self.view addSubview:_projectDocView];
     

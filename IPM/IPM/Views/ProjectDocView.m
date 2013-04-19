@@ -46,6 +46,12 @@
     return self;
 }
 
+- (void)setupView
+{
+    self.plistContainerView = [self viewWithTag:1234];
+    self.labeling = @"项目文档";
+}
+
 - (void)dealloc
 {
     [_tableView release];

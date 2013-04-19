@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "RadioButton.h"
+#import "BaseView.h"
 
-@interface ProjectBaseInfoView : UIView
+@interface ProjectBaseInfoView : BaseView
 
 @property (retain, nonatomic) IBOutlet RadioButton *signStatusSwitch;
 
