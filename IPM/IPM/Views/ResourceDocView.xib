@@ -48,7 +48,7 @@
 									<object class="IBUIImageView" id="838570243">
 										<reference key="NSNextResponder" ref="224206918"/>
 										<int key="NSvFlags">256</int>
-										<string key="NSFrame">{{-9, -15}, {1006, 67}}</string>
+										<string key="NSFrameSize">{984, 36}</string>
 										<reference key="NSSuperview" ref="224206918"/>
 										<reference key="NSWindow"/>
 										<bool key="IBUIOpaque">NO</bool>
@@ -61,7 +61,7 @@
 										</object>
 									</object>
 								</array>
-								<string key="NSFrameSize">{984, 67}</string>
+								<string key="NSFrameSize">{984, 36}</string>
 								<reference key="NSSuperview" ref="823342331"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="986533531"/>
@@ -75,7 +75,7 @@
 							<object class="IBUILabel" id="986533531">
 								<reference key="NSNextResponder" ref="823342331"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{7, 9}, {153, 21}}</string>
+								<string key="NSFrame">{{10, 9}, {153, 21}}</string>
 								<reference key="NSSuperview" ref="823342331"/>
 								<reference key="NSWindow"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -105,7 +105,7 @@
 							<object class="IBUIButton" id="623714741">
 								<reference key="NSNextResponder" ref="823342331"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{20, 316}, {100, 32}}</string>
+								<string key="NSFrame">{{20, 262}, {100, 32}}</string>
 								<reference key="NSSuperview" ref="823342331"/>
 								<reference key="NSWindow"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -273,7 +273,7 @@
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="button_bg.png">{248, 49}</string>
-			<string key="info_header_bg.png">{1000, 66}</string>
+			<string key="info_header_bg.png">{978, 36}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">2083</string>
 	</data>
