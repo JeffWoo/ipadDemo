@@ -52,6 +52,7 @@
         self.popoverGradient = YES;
         
         screenRect = [[UIScreen mainScreen] bounds];
+//        screenRect = CGRectMake(0, 0, 1024, 768);
         self.view.frame = screenRect;
         screenRect.origin.y = 0;
         screenRect.size.height = screenRect.size.height-20;   
@@ -322,6 +323,11 @@
         
     }
     
+    //fixed bug
+    if (contentFrameRect.size.height <= 0) {
+        contentFrameRect.size.height = 120;
+    }
+    
     return contentFrameRect;
 }
 
@@ -342,7 +348,7 @@
         popoverX = senderPoint.x - (popoverWidth/2);
         if(popoverX < kOuterMargin) {
             popoverX = kOuterMargin;
-        } else if((popoverX + popoverWidth)>self.view.frame.size.width) {
+        } else if((popoverX + popoverWidth)>1024) { //原本是self.view.frame.width，但是横屏后宽高对换了
             popoverX = self.view.frame.size.width - (popoverWidth+kOuterMargin);
         }
         
@@ -351,10 +357,12 @@
         }else{
             popoverY = senderPoint.y + kArrowMagin;
         }
+        //下拉列表只可以向下
+//        popoverY = senderPoint.y + kArrowMagin;
         
         popoverRect = CGRectMake(popoverX, popoverY, popoverWidth, popoverHeight);
         
-    }else if(self.arrowPosition = PopoverArrowPositionHorizontal){
+    }else if(self.arrowPosition == PopoverArrowPositionHorizontal){
         
         popoverWidth = contentFrame.size.width+kArrowSize+kMargin*2;
         popoverHeight = contentFrame.size.height+titleLabelheight+kMargin*2;

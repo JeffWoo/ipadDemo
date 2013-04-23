@@ -23,17 +23,23 @@
 {
     self = [super initWithCoder:aDecoder];
     if (self) {
-        self.signStatusSwitch.offText = @"未签";
-        self.signStatusSwitch.onText = @"已签";
+
     }
     
     return self;
 }
 
+- (void)setupView
+{
+    [self.genderSwitch setupWithTitles:[NSArray arrayWithObjects:@"男", @"女", nil] selectedIndex:0];
+    
+    self.plistContainerView = [self viewWithTag:1234];
+    self.labeling = @"客户详情";
+}
 
 - (void)dealloc
 {
-    [_signStatusSwitch release];
+    [_genderSwitch release];
     [super dealloc];
 }
 @end

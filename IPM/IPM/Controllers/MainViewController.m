@@ -88,6 +88,7 @@
     _docManagerController.containerController = self;
     
     self.currentPanelController = _projectManagerController;
+    
 }
 
 - (void)setCurrentPanelController:(RootViewController *)currentPanelController

@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "EWMultiColumnTableView.h"
+#import "BaseView.h"
 
-@interface ProjectDocView : UIView<EWMultiColumnTableViewDataSource,EWMultiColumnTableViewDelegate>
+@interface ProjectDocView : BaseView<EWMultiColumnTableViewDataSource,EWMultiColumnTableViewDelegate>
 
 @property (retain, nonatomic) EWMultiColumnTableView *tableView;
 @property (retain, nonatomic) NSMutableDictionary *tableDict;
 @property (retain, nonatomic) NSMutableArray *columnData;
+
+- (void)setupView;
 
 @end

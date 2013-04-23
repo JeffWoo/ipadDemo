@@ -62,6 +62,7 @@
     self.navigationItem.titleView = segmentedControl;
     
     _projectBaseInfoView = [[[NSBundle mainBundle] loadNibNamed:@"ProjectBaseInfoView" owner:self options:nil] objectAtIndex:0];
+    [_projectBaseInfoView setupView];
     _projectBaseInfoView.hidden = YES;
     [self.view addSubview:_projectBaseInfoView];
     
@@ -74,6 +75,7 @@
     [self.view addSubview:_resourceInfoView];
     
     _projectDocView = [[[NSBundle mainBundle] loadNibNamed:@"ProjectDocView" owner:self options:nil] objectAtIndex:0];
+    [_projectDocView setupView];
     _projectDocView.hidden = YES;
     [self.view addSubview:_projectDocView];
     

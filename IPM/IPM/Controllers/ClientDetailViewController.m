@@ -7,6 +7,7 @@
 //
 
 #import "ClientDetailViewController.h"
+#import "ClientDetailView.h"
 
 @interface ClientDetailViewController ()
 
@@ -26,6 +27,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    ClientDetailView *detailView = [[[NSBundle mainBundle] loadNibNamed:@"ClientDetailView" owner:self options:nil] objectAtIndex:0];
+    [detailView setupView];
+    detailView.frame = self.view.bounds;
+    [self.view addSubview:detailView];
 }
 
 - (void)didReceiveMemoryWarning
