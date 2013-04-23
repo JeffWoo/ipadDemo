@@ -21,6 +21,9 @@
         [dropdownButton setBackgroundImage:[UIImage imageNamed:@"dropdown_bg"] forState:UIControlStateNormal];
         [dropdownButton setTitle:@"--请选择--" forState:UIControlStateNormal];
         dropdownButton.titleLabel.font = [UIFont boldSystemFontOfSize:15];
+//        dropdownButton.titleLabel.textColor = [UIColor blackColor];
+        [dropdownButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [dropdownButton setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
         
         [dropdownButton addTarget:self action:@selector(toggleDropdown:forEvent:) forControlEvents:UIControlEventTouchUpInside];
         dropdownButton.tag = 123;
@@ -42,7 +45,10 @@
         [dropdownButton setBackgroundImage:[UIImage imageNamed:@"dropdown_bg"] forState:UIControlStateNormal];
         [dropdownButton setTitle:@"--请选择--" forState:UIControlStateNormal];
         dropdownButton.titleLabel.font = [UIFont boldSystemFontOfSize:15];
-
+//        dropdownButton.titleLabel.textColor = [UIColor blackColor];
+        [dropdownButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [dropdownButton setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
+        
         [dropdownButton addTarget:self action:@selector(toggleDropdown:forEvent:) forControlEvents:UIControlEventTouchUpInside];
         dropdownButton.tag = 123;
         [self addSubview:dropdownButton];
@@ -73,6 +79,15 @@
 
 - (void)toggleDropdown:(UIButton *)sender forEvent:(UIEvent *)event
 {
+//    int senderY = 0;
+//    UIView *iterView = sender;
+//    while (iterView.superview) {
+//        senderY += iterView.superview.frame.origin.y;
+//        iterView = iterView.superview;
+//    }
+//    senderY += sender.frame.origin.y;
+//    
+//    int height = senderY > 600 ? 80 : 120;
     UIView *tagPopoverView = [[UIView alloc] initWithFrame:CGRectMake(0,0, self.bounds.size.width, 120)];
     tagPopoverView.backgroundColor = [UIColor lightGrayColor];
     
@@ -130,6 +145,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [(UIButton *)[self viewWithTag:123] setTitle:[self.options objectAtIndex:indexPath.row] forState:UIControlStateNormal];
+    [(UIButton *)[self viewWithTag:123] setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     
     [_popover dismissPopoverAnimatd:YES];
 }

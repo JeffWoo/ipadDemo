@@ -31,7 +31,7 @@
         
         self.columnData = [NSMutableArray arrayWithObjects:@"文档编号", @"文档名称", @"文档描述",@"上传者",@"上传时间",nil];
         
-        self.tableView = [[EWMultiColumnTableView alloc] initWithFrame:CGRectMake(41, 114, 942, 132)];
+        self.tableView = [[EWMultiColumnTableView alloc] initWithFrame:CGRectMake(41, 134, 942, 132)];
         self.tableView.layer.borderWidth = 1.0;
         self.tableView.layer.borderColor = [UIColor darkGrayColor].CGColor;
         self.tableView.backgroundColor = [UIColor whiteColor];

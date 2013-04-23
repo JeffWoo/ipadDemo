@@ -42,6 +42,9 @@
     [super viewDidLoad];
 
     self.navigationController.navigationBarHidden = YES;
+    
+    [[UIBarButtonItem appearance] setTintColor:[UIColor colorWithRed:0.249 green:0.486 blue:0.737 alpha:1.0]];
+    [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:0.667 green:0.773 blue:0.941 alpha:1.0]];
 }
 
 - (void)viewWillAppear:(BOOL)animated

@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DCRoundSwitch.h"
+#import "RadioButton.h"
+#import "BaseView.h"
 
-@interface ProjectBaseInfoView : UIView
+@interface ProjectBaseInfoView : BaseView
 
-@property (retain, nonatomic) IBOutlet DCRoundSwitch *signStatusSwitch;
+@property (retain, nonatomic) IBOutlet RadioButton *signStatusSwitch;
+
+- (void)setupView;
 
 @end
