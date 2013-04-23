@@ -11,6 +11,7 @@
 		BF0F9B3A170BD379008BEB55 /* info_header_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0F9B38170BD379008BEB55 /* info_header_bg.png */; };
 		BF2759D91721B27400D3FF4F /* DropdownListItemData.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF2759D81721B27400D3FF4F /* DropdownListItemData.plist */; };
 		BF2759DF1721B5E000D3FF4F /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2759DE1721B5E000D3FF4F /* BaseView.m */; };
+		BF7827741726930C00D22B99 /* textview_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7827731726930C00D22B99 /* textview_bg.png */; };
 		BF836B301720348B00F1E5E6 /* main_title_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF836B2F1720348B00F1E5E6 /* main_title_bg.jpg */; };
 		BF836B33172043D700F1E5E6 /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF836B32172043D600F1E5E6 /* RadioButton.m */; };
 		BF836B361720441700F1E5E6 /* cc_radio_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BF836B341720441700F1E5E6 /* cc_radio_selected.png */; };
@@ -156,6 +157,7 @@
 		BFADDC5D16FE58AF00662627 /* StaticsManagerData.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFADDC5C16FE58AF00662627 /* StaticsManagerData.plist */; };
 		BFADDC6116FE5CCC00662627 /* ProjectInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFADDC5F16FE5CCA00662627 /* ProjectInfoViewController.m */; };
 		BFADDC6216FE5CCC00662627 /* ProjectInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFADDC6016FE5CCB00662627 /* ProjectInfoViewController.xib */; };
+		BFFE3E3B17269A8400D6CA8D /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE3E3A17269A8400D6CA8D /* CustomTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -164,6 +166,7 @@
 		BF2759D81721B27400D3FF4F /* DropdownListItemData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DropdownListItemData.plist; sourceTree = "<group>"; };
 		BF2759DD1721B5E000D3FF4F /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
 		BF2759DE1721B5E000D3FF4F /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		BF7827731726930C00D22B99 /* textview_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textview_bg.png; sourceTree = "<group>"; };
 		BF836B2F1720348B00F1E5E6 /* main_title_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main_title_bg.jpg; sourceTree = "<group>"; };
 		BF836B31172043D600F1E5E6 /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
 		BF836B32172043D600F1E5E6 /* RadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
@@ -370,6 +373,8 @@
 		BFADDC5E16FE5CC900662627 /* ProjectInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectInfoViewController.h; sourceTree = "<group>"; };
 		BFADDC5F16FE5CCA00662627 /* ProjectInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectInfoViewController.m; sourceTree = "<group>"; };
 		BFADDC6016FE5CCB00662627 /* ProjectInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectInfoViewController.xib; sourceTree = "<group>"; };
+		BFFE3E3917269A8400D6CA8D /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
+		BFFE3E3A17269A8400D6CA8D /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -566,6 +571,7 @@
 				BFADC6041705E5C10053D072 /* orange_button_bg.png */,
 				BFABCF8E170050720052AB04 /* btn_bg_grey.png */,
 				BFABCFE51700A56A0052AB04 /* selected_button_bg.png */,
+				BF7827731726930C00D22B99 /* textview_bg.png */,
 				BFADDBAD16FE0E7900662627 /* Switcher */,
 			);
 			path = Common;
@@ -607,6 +613,8 @@
 				BFABCF2116FED6030052AB04 /* DropDownList.m */,
 				BF836B31172043D600F1E5E6 /* RadioButton.h */,
 				BF836B32172043D600F1E5E6 /* RadioButton.m */,
+				BFFE3E3917269A8400D6CA8D /* CustomTextField.h */,
+				BFFE3E3A17269A8400D6CA8D /* CustomTextField.m */,
 				BF2759DD1721B5E000D3FF4F /* BaseView.h */,
 				BF2759DE1721B5E000D3FF4F /* BaseView.m */,
 				BFABCF2316FED9C30052AB04 /* ProjectBaseInfoView.h */,
@@ -912,6 +920,7 @@
 				BF836B361720441700F1E5E6 /* cc_radio_selected.png in Resources */,
 				BF836B371720441700F1E5E6 /* cc_radio_unselected.png in Resources */,
 				BF2759D91721B27400D3FF4F /* DropdownListItemData.plist in Resources */,
+				BF7827741726930C00D22B99 /* textview_bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -979,6 +988,7 @@
 				BFABCFE317009B3A0052AB04 /* ClientDetailViewController.m in Sources */,
 				BF836B33172043D700F1E5E6 /* RadioButton.m in Sources */,
 				BF2759DF1721B5E000D3FF4F /* BaseView.m in Sources */,
+				BFFE3E3B17269A8400D6CA8D /* CustomTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1068,8 +1078,8 @@
 				INFOPLIST_FILE = "IPM/IPM-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "CDC1D581-8F3E-4D7C-A685-B30E9C1E3F03";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CDC1D581-8F3E-4D7C-A685-B30E9C1E3F03";
+				PROVISIONING_PROFILE = "4E32B188-31A0-4D5F-937D-A695965AE293";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4E32B188-31A0-4D5F-937D-A695965AE293";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1084,8 +1094,8 @@
 				INFOPLIST_FILE = "IPM/IPM-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "CDC1D581-8F3E-4D7C-A685-B30E9C1E3F03";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CDC1D581-8F3E-4D7C-A685-B30E9C1E3F03";
+				PROVISIONING_PROFILE = "4E32B188-31A0-4D5F-937D-A695965AE293";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4E32B188-31A0-4D5F-937D-A695965AE293";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
