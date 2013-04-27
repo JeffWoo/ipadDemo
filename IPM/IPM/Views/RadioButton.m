@@ -57,7 +57,9 @@
                 button.selected = YES;
                 _currentButton = button;
                 
-            } 
+            }
+            
+            button.imageView.contentMode = UIViewContentModeCenter;
             
             [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
             [button setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];

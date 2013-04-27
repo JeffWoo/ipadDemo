@@ -19,7 +19,7 @@
         UIButton *dropdownButton = [UIButton buttonWithType:UIButtonTypeCustom];
         dropdownButton.frame = self.bounds;
         [dropdownButton setBackgroundImage:[UIImage imageNamed:@"dropdown_bg"] forState:UIControlStateNormal];
-        [dropdownButton setTitle:@"--请选择--" forState:UIControlStateNormal];
+//        [dropdownButton setTitle:@"--请选择--" forState:UIControlStateNormal];
         dropdownButton.titleLabel.font = [UIFont boldSystemFontOfSize:15];
 //        dropdownButton.titleLabel.textColor = [UIColor blackColor];
         [dropdownButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
@@ -43,7 +43,7 @@
         UIButton *dropdownButton = [UIButton buttonWithType:UIButtonTypeCustom];
         dropdownButton.frame = self.bounds;
         [dropdownButton setBackgroundImage:[UIImage imageNamed:@"dropdown_bg"] forState:UIControlStateNormal];
-        [dropdownButton setTitle:@"--请选择--" forState:UIControlStateNormal];
+//        [dropdownButton setTitle:@"--请选择--" forState:UIControlStateNormal];
         dropdownButton.titleLabel.font = [UIFont boldSystemFontOfSize:15];
 //        dropdownButton.titleLabel.textColor = [UIColor blackColor];
         [dropdownButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
@@ -55,7 +55,7 @@
         
         
         //test
-        self.options = [NSMutableArray arrayWithObjects:@"测试选项1", @"测试选项2", @"测试选项3", @"测试选项4",nil];
+//        self.options = [NSMutableArray arrayWithObjects:@"测试选项1", @"测试选项2", @"测试选项3", @"测试选项4",nil];
         
     }
     
@@ -70,6 +70,13 @@
     [super dealloc];
 }
 
+- (void)setOptions:(NSMutableArray *)options
+{
+    _options = [options retain];
+    if (_options && [_options isKindOfClass:[NSMutableArray class]] && _options.count > 0) {
+        self.optionTitle = [_options objectAtIndex:0];
+    }
+}
 - (void)setOptionTitle:(NSString *)optionTitle
 {
     _optionTitle = [optionTitle copy];
