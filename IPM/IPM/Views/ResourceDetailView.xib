@@ -278,12 +278,11 @@
 									<object class="IBUIImageView" id="254439141">
 										<reference key="NSNextResponder" ref="474608409"/>
 										<int key="NSvFlags">256</int>
-										<string key="NSFrame">{{0, 2}, {984, 36}}</string>
+										<string key="NSFrameSize">{984, 36}</string>
 										<reference key="NSSuperview" ref="474608409"/>
 										<reference key="NSWindow"/>
 										<bool key="IBUIOpaque">NO</bool>
 										<bool key="IBUIClipsSubviews">YES</bool>
-										<int key="IBUIContentMode">4</int>
 										<bool key="IBUIMultipleTouchEnabled">YES</bool>
 										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 										<object class="NSCustomResource" key="IBUIImage">
@@ -294,7 +293,7 @@
 									<object class="IBUILabel" id="657837626">
 										<reference key="NSNextResponder" ref="474608409"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{20, 9}, {142, 21}}</string>
+										<string key="NSFrame">{{10, 9}, {142, 21}}</string>
 										<reference key="NSSuperview" ref="474608409"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="867459183"/>
@@ -320,7 +319,7 @@
 										<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 									</object>
 								</array>
-								<string key="NSFrame">{{0, 488}, {984, 40}}</string>
+								<string key="NSFrame">{{0, 488}, {984, 36}}</string>
 								<reference key="NSSuperview" ref="823342331"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="657837626"/>
@@ -1347,7 +1346,7 @@ ICAgICAgIOmhueaJi+e7rei0ue+8miAw5YWDA</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="button_bg.png">{248, 49}</string>
-			<string key="info_header_bg.png">{1000, 66}</string>
+			<string key="info_header_bg.png">{978, 36}</string>
 			<string key="pic1.jpg">{950, 716}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">2083</string>
