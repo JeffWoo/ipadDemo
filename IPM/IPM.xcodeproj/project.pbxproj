@@ -11,6 +11,11 @@
 		BF0F9B3A170BD379008BEB55 /* info_header_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0F9B38170BD379008BEB55 /* info_header_bg.png */; };
 		BF2759D91721B27400D3FF4F /* DropdownListItemData.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF2759D81721B27400D3FF4F /* DropdownListItemData.plist */; };
 		BF2759DF1721B5E000D3FF4F /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2759DE1721B5E000D3FF4F /* BaseView.m */; };
+		BF6A8E3A17565D72001115C2 /* ProjectConcludeEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6A8E3917565D72001115C2 /* ProjectConcludeEditView.xib */; };
+		BF6D6A531758D3FB00EBC6D1 /* TaskListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6D6A521758D3FB00EBC6D1 /* TaskListView.xib */; };
+		BF6D6A561758D60C00EBC6D1 /* TaskListView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6D6A551758D60C00EBC6D1 /* TaskListView.m */; };
+		BF6D6A591758DFC600EBC6D1 /* AddConcludeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6D6A581758DFC600EBC6D1 /* AddConcludeView.m */; };
+		BF6D6A5B1758DFE000EBC6D1 /* AddConcludeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6D6A5A1758DFDF00EBC6D1 /* AddConcludeView.xib */; };
 		BF7827741726930C00D22B99 /* textview_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7827731726930C00D22B99 /* textview_bg.png */; };
 		BF836B301720348B00F1E5E6 /* main_title_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF836B2F1720348B00F1E5E6 /* main_title_bg.jpg */; };
 		BF836B33172043D700F1E5E6 /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF836B32172043D600F1E5E6 /* RadioButton.m */; };
@@ -166,6 +171,13 @@
 		BF2759D81721B27400D3FF4F /* DropdownListItemData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DropdownListItemData.plist; sourceTree = "<group>"; };
 		BF2759DD1721B5E000D3FF4F /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
 		BF2759DE1721B5E000D3FF4F /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		BF6A8E3917565D72001115C2 /* ProjectConcludeEditView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectConcludeEditView.xib; sourceTree = "<group>"; };
+		BF6D6A521758D3FB00EBC6D1 /* TaskListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskListView.xib; sourceTree = "<group>"; };
+		BF6D6A541758D60C00EBC6D1 /* TaskListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskListView.h; sourceTree = "<group>"; };
+		BF6D6A551758D60C00EBC6D1 /* TaskListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskListView.m; sourceTree = "<group>"; };
+		BF6D6A571758DFC500EBC6D1 /* AddConcludeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddConcludeView.h; sourceTree = "<group>"; };
+		BF6D6A581758DFC600EBC6D1 /* AddConcludeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddConcludeView.m; sourceTree = "<group>"; };
+		BF6D6A5A1758DFDF00EBC6D1 /* AddConcludeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddConcludeView.xib; sourceTree = "<group>"; };
 		BF7827731726930C00D22B99 /* textview_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textview_bg.png; sourceTree = "<group>"; };
 		BF836B2F1720348B00F1E5E6 /* main_title_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main_title_bg.jpg; sourceTree = "<group>"; };
 		BF836B31172043D600F1E5E6 /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
@@ -635,6 +647,13 @@
 				BFABCF3C16FEECB90052AB04 /* ProjectConcludeView.h */,
 				BFABCF3D16FEECBA0052AB04 /* ProjectConcludeView.m */,
 				BFABCF3E16FEECBA0052AB04 /* ProjectConcludeView.xib */,
+				BF6A8E3917565D72001115C2 /* ProjectConcludeEditView.xib */,
+				BF6D6A541758D60C00EBC6D1 /* TaskListView.h */,
+				BF6D6A551758D60C00EBC6D1 /* TaskListView.m */,
+				BF6D6A521758D3FB00EBC6D1 /* TaskListView.xib */,
+				BF6D6A571758DFC500EBC6D1 /* AddConcludeView.h */,
+				BF6D6A581758DFC600EBC6D1 /* AddConcludeView.m */,
+				BF6D6A5A1758DFDF00EBC6D1 /* AddConcludeView.xib */,
 				BFABCF4E16FF09D70052AB04 /* ClientDetailView.h */,
 				BFABCF4F16FF09D70052AB04 /* ClientDetailView.m */,
 				BFABCF5016FF09D80052AB04 /* ClientDetailView.xib */,
@@ -921,6 +940,9 @@
 				BF836B371720441700F1E5E6 /* cc_radio_unselected.png in Resources */,
 				BF2759D91721B27400D3FF4F /* DropdownListItemData.plist in Resources */,
 				BF7827741726930C00D22B99 /* textview_bg.png in Resources */,
+				BF6A8E3A17565D72001115C2 /* ProjectConcludeEditView.xib in Resources */,
+				BF6D6A531758D3FB00EBC6D1 /* TaskListView.xib in Resources */,
+				BF6D6A5B1758DFE000EBC6D1 /* AddConcludeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -989,6 +1011,8 @@
 				BF836B33172043D700F1E5E6 /* RadioButton.m in Sources */,
 				BF2759DF1721B5E000D3FF4F /* BaseView.m in Sources */,
 				BFFE3E3B17269A8400D6CA8D /* CustomTextField.m in Sources */,
+				BF6D6A561758D60C00EBC6D1 /* TaskListView.m in Sources */,
+				BF6D6A591758DFC600EBC6D1 /* AddConcludeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
