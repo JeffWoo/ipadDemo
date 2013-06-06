@@ -11,6 +11,7 @@
 		BF0F9B3A170BD379008BEB55 /* info_header_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0F9B38170BD379008BEB55 /* info_header_bg.png */; };
 		BF2759D91721B27400D3FF4F /* DropdownListItemData.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF2759D81721B27400D3FF4F /* DropdownListItemData.plist */; };
 		BF2759DF1721B5E000D3FF4F /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2759DE1721B5E000D3FF4F /* BaseView.m */; };
+		BF69BBAC1761131000AD0722 /* doc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF69BBAB1761131000AD0722 /* doc.jpg */; };
 		BF6A8E3A17565D72001115C2 /* ProjectConcludeEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6A8E3917565D72001115C2 /* ProjectConcludeEditView.xib */; };
 		BF6D6A531758D3FB00EBC6D1 /* TaskListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6D6A521758D3FB00EBC6D1 /* TaskListView.xib */; };
 		BF6D6A561758D60C00EBC6D1 /* TaskListView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6D6A551758D60C00EBC6D1 /* TaskListView.m */; };
@@ -173,6 +174,7 @@
 		BF2759D81721B27400D3FF4F /* DropdownListItemData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DropdownListItemData.plist; sourceTree = "<group>"; };
 		BF2759DD1721B5E000D3FF4F /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
 		BF2759DE1721B5E000D3FF4F /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		BF69BBAB1761131000AD0722 /* doc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doc.jpg; sourceTree = "<group>"; };
 		BF6A8E3917565D72001115C2 /* ProjectConcludeEditView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectConcludeEditView.xib; sourceTree = "<group>"; };
 		BF6D6A521758D3FB00EBC6D1 /* TaskListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskListView.xib; sourceTree = "<group>"; };
 		BF6D6A541758D60C00EBC6D1 /* TaskListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskListView.h; sourceTree = "<group>"; };
@@ -774,6 +776,7 @@
 				BFADC5FE1705E0B60053D072 /* search_button_bg.png */,
 				BF0F9B37170BD379008BEB55 /* info_content_bg.png */,
 				BF0F9B38170BD379008BEB55 /* info_header_bg.png */,
+				BF69BBAB1761131000AD0722 /* doc.jpg */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -952,6 +955,7 @@
 				BF6D6A531758D3FB00EBC6D1 /* TaskListView.xib in Resources */,
 				BF6D6A5B1758DFE000EBC6D1 /* AddConcludeView.xib in Resources */,
 				BFD8A88D175CD70500678A8C /* ReplyView.xib in Resources */,
+				BF69BBAC1761131000AD0722 /* doc.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 
 #import "FollowStatusView.h"
 #import "ReplyView.h"
+#import "WebViewController.h"
 #import <QuartzCore/QuartzCore.h>
 
 @implementation FollowStatusView
@@ -35,6 +36,8 @@
 {
     self.mainView.layer.borderWidth = 1.0;
     self.stageView.layer.borderWidth = 1.0;
+    self.stageView2.layer.borderWidth = 1.0;
+    self.attachView.layer.borderWidth = 1.0;
     
     self.hrFollowDropdownList.optionTitle = @"选择项目阶段";
     self.stageDropdownList.optionTitle = @"人工跟进";
@@ -50,6 +53,17 @@
     [self bringSubviewToFront:replyView];
 }
 
+- (IBAction)toggleViewDoc:(id)sender
+{
+    WebViewController *controller = [[WebViewController alloc] initWithNibName:@"WebViewController" bundle:nil];
+    controller.docPath = [[NSBundle mainBundle] pathForResource:@"0" ofType:@"doc"];
+    controller.present = YES;
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:controller];
+    [self.viewController presentModalViewController:nav animated:YES];
+    [controller release];
+    
+}
+
 - (void)dealloc
 {
     [_mainView release];
@@ -57,6 +71,8 @@
     [_stageDropdownList release];
     [_investDropdownList release];
     [_stageView release];
+    [_stageView2 release];
+    [_attachView release];
     [super dealloc];
 }
 @end

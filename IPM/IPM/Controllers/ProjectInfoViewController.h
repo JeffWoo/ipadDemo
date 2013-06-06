@@ -7,6 +7,7 @@
 //
 
 #import "RootViewController.h"
+#import "ProjectManagerViewController.h"
 
 @interface ProjectInfoViewController : RootViewController
 

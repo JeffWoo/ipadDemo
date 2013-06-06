@@ -69,7 +69,10 @@
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<bool key="IBUIShowsHorizontalScrollIndicator">NO</bool>
-						<string key="IBUIText"/>
+						<string type="base64-UTF8" key="IBUIText">6aG555uu56255aSH5pe26Ze06L6D57Sn77yM5Lq65omL5LiN6Laz77yb5a+86Ie06L+b5bqm5Y+X5Yiw
+5ouW5bu277yb5oql5bu65omL57ut5raJ5Y+K6YOo6Zeo5omL57ut6L6D5Li657mB55CQ77yM5bey5pWm
+5L+D5oql5bu66Lef6L+b5Lq65ZGY55aP6YCa5YWz57O777ybCui1hOmHkeWIsOS9jeaDheWGtemcgOi3
+n+e0p++8mw</string>
 						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 							<int key="IBUIAutocapitalizationType">2</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -108,28 +111,9 @@
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<bool key="IBUIShowsHorizontalScrollIndicator">NO</bool>
-						<string key="IBUIText"/>
-						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
-							<int key="IBUIAutocapitalizationType">2</int>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						</object>
-						<reference key="IBUIFontDescription" ref="867781545"/>
-						<reference key="IBUIFont" ref="607081514"/>
-					</object>
-					<object class="IBUITextView" id="312043379">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{21, 42}, {888, 54}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="1043708256"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<reference key="IBUIBackgroundColor" ref="677582663"/>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<bool key="IBUIShowsHorizontalScrollIndicator">NO</bool>
-						<string key="IBUIText"/>
+						<string type="base64-UTF8" key="IBUIText">6aG555uu5Lq65ZGY5YiG5bel57uG5YyWCuWQhOmhueW3peS9nOW/hemhu+aMieeFp+i/m+W6puiuoeWI
+kui1tui/m+W6pu+8jOavj+WRqOaxh+aKpeS4gOasoe+8mwrmnKzlkajlrozmiJDmiqXlu7rmiYvnu63l
+t6XkvZw</string>
 						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 							<int key="IBUIAutocapitalizationType">2</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -148,6 +132,31 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<reference key="IBUIImage" ref="896288911"/>
+					</object>
+					<object class="IBUITextView" id="312043379">
+						<reference key="NSNextResponder" ref="191373211"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{21, 42}, {888, 54}}</string>
+						<reference key="NSSuperview" ref="191373211"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="1043708256"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<reference key="IBUIBackgroundColor" ref="677582663"/>
+						<bool key="IBUIClipsSubviews">YES</bool>
+						<bool key="IBUIMultipleTouchEnabled">YES</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<bool key="IBUIShowsHorizontalScrollIndicator">NO</bool>
+						<string key="IBUIText">项目小组已经组建，任命胡肇辉副总为本项目负责人，对项目进行责任统筹，成员分工已经项目进度计划拟定在3月20日出；</string>
+						<object class="NSColor" key="IBUITextColor">
+							<int key="NSColorSpace">3</int>
+							<bytes key="NSWhite">MAA</bytes>
+						</object>
+						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
+							<int key="IBUIAutocapitalizationType">2</int>
+							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						</object>
+						<reference key="IBUIFontDescription" ref="867781545"/>
+						<reference key="IBUIFont" ref="607081514"/>
 					</object>
 					<object class="IBUILabel" id="611622511">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -291,11 +300,11 @@
 							<reference ref="372473311"/>
 							<reference ref="726340088"/>
 							<reference ref="117796803"/>
-							<reference ref="312043379"/>
 							<reference ref="1043708256"/>
 							<reference ref="611622511"/>
 							<reference ref="491572930"/>
 							<reference ref="101734229"/>
+							<reference ref="312043379"/>
 							<reference ref="838622108"/>
 						</array>
 						<reference key="parent" ref="0"/>

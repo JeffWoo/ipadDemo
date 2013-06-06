@@ -81,6 +81,7 @@
     
     _followStatusView = [[[NSBundle mainBundle] loadNibNamed:@"FollowStatusView" owner:self options:nil] objectAtIndex:0];
     [_followStatusView setupViews];
+    _followStatusView.viewController = self;
     _followStatusView.hidden = YES;
     [self.view addSubview:_followStatusView];
     

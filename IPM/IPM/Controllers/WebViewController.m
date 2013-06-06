@@ -19,6 +19,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         
+        self.present = NO;
+        
     }
     return self;
 }
@@ -51,6 +53,17 @@
     
     self.navigationController.navigationBarHidden = NO;
     self.navigationItem.title = @"文档内容";
+    
+    if (self.present) {
+        
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStyleBordered target:self action:@selector(backAction)];
+        
+    }
+}
+
+- (void)backAction
+{
+    [self dismissModalViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning
