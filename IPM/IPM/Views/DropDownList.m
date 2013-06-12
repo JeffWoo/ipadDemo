@@ -73,8 +73,14 @@
 - (void)setOptions:(NSMutableArray *)options
 {
     _options = [options retain];
-    if (_options && [_options isKindOfClass:[NSMutableArray class]] && _options.count > 0) {
-        self.optionTitle = [_options objectAtIndex:0];
+    if (_options && [_options isKindOfClass:[NSMutableArray class]]) {
+        
+        if (_options.count > 1) {
+            self.optionTitle = [_options objectAtIndex:1];
+        } else if (_options.count > 0) {
+            self.optionTitle = [_options objectAtIndex:0];
+        }
+        
     }
 }
 - (void)setOptionTitle:(NSString *)optionTitle
