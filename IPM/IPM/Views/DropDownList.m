@@ -73,8 +73,14 @@
 - (void)setOptions:(NSMutableArray *)options
 {
     _options = [options retain];
-    if (_options && [_options isKindOfClass:[NSMutableArray class]] && _options.count > 0) {
-        self.optionTitle = [_options objectAtIndex:0];
+    if (_options && [_options isKindOfClass:[NSMutableArray class]]) {
+        
+        if (_options.count > 1) {
+            self.optionTitle = [_options objectAtIndex:1];
+        } else if (_options.count > 0) {
+            self.optionTitle = [_options objectAtIndex:0];
+        }
+        
     }
 }
 - (void)setOptionTitle:(NSString *)optionTitle
@@ -95,7 +101,7 @@
 //    senderY += sender.frame.origin.y;
 //    
 //    int height = senderY > 600 ? 80 : 120;
-    UIView *tagPopoverView = [[UIView alloc] initWithFrame:CGRectMake(0,0, self.bounds.size.width, 120)];
+    UIView *tagPopoverView = [[UIView alloc] initWithFrame:CGRectMake(0,0, self.bounds.size.width, 150)];
     tagPopoverView.backgroundColor = [UIColor lightGrayColor];
     
     UITableView *optionTable = [[UITableView alloc] initWithFrame:tagPopoverView.bounds style:UITableViewStylePlain];
@@ -126,7 +132,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 32;
+    return 25;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

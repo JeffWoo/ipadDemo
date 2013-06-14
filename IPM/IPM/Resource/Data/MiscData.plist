@@ -65,17 +65,25 @@
 		<key>总结主题</key>
 		<array>
 			<string>项目启动会</string>
+			<string></string>
+			<string>项目总结</string>
 		</array>
 		<key>记录人</key>
 		<array>
+			<string>管理员</string>
+			<string></string>
 			<string>管理员</string>
 		</array>
 		<key>创建时间</key>
 		<array>
 			<string>2012-10-18</string>
+			<string></string>
+			<string>2012-10-18</string>
 		</array>
 		<key>操作</key>
 		<array>
+			<string></string>
+			<string></string>
 			<string></string>
 		</array>
 	</dict>

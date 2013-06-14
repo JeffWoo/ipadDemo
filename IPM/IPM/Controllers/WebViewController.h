@@ -12,5 +12,6 @@
 
 @property (retain, nonatomic) IBOutlet UIWebView *webView;
 @property (copy,   nonatomic) NSString *docPath;
+@property (assign, nonatomic) BOOL present;
 
 @end

@@ -89,6 +89,9 @@
     
     self.currentPanelController = _projectManagerController;
     
+    [self addChildViewController:_projectManagerController];
+    [self didMoveToParentViewController:_projectManagerController];
+    
 }
 
 - (void)setCurrentPanelController:(RootViewController *)currentPanelController
