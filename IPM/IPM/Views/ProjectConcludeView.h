@@ -15,4 +15,6 @@
 @property (retain, nonatomic) NSMutableDictionary *tableDict;
 @property (retain, nonatomic) NSMutableArray *columnData;
 
+- (IBAction)createConclude:(UIButton *)sender;
+
 @end
