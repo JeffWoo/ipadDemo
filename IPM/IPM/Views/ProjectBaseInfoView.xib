@@ -2,10 +2,10 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1552</int>
-		<string key="IBDocument.SystemVersion">11G63</string>
+		<string key="IBDocument.SystemVersion">12D78</string>
 		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
-		<string key="IBDocument.AppKitVersion">1138.51</string>
-		<string key="IBDocument.HIToolboxVersion">569.00</string>
+		<string key="IBDocument.AppKitVersion">1187.37</string>
+		<string key="IBDocument.HIToolboxVersion">626.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			<string key="NS.object.0">2083</string>
@@ -367,21 +367,6 @@
 									<reference key="NSCustomColorSpace" ref="407970150"/>
 								</object>
 								<int key="IBUITag">1105</int>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-							</object>
-							<object class="IBUIView" id="574412757">
-								<reference key="NSNextResponder" ref="303642211"/>
-								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{106, 372}, {200, 28}}</string>
-								<reference key="NSSuperview" ref="303642211"/>
-								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="924418190"/>
-								<string key="NSReuseIdentifierKey">_NS:9</string>
-								<object class="NSColor" key="IBUIBackgroundColor">
-									<int key="NSColorSpace">3</int>
-									<bytes key="NSWhite">MQA</bytes>
-									<reference key="NSCustomColorSpace" ref="407970150"/>
-								</object>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 							</object>
 							<object class="IBUILabel" id="771160917">
@@ -1107,6 +1092,7 @@
 							<object class="IBUIView" id="31711024">
 								<reference key="NSNextResponder" ref="303642211"/>
 								<int key="NSvFlags">292</int>
+								<array class="NSMutableArray" key="NSSubviews"/>
 								<string key="NSFrame">{{106, 412}, {210, 28}}</string>
 								<reference key="NSSuperview" ref="303642211"/>
 								<reference key="NSWindow"/>
@@ -1134,22 +1120,6 @@
 									<reference key="NSCustomColorSpace" ref="407970150"/>
 								</object>
 								<int key="IBUITag">1108</int>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-							</object>
-							<object class="IBUIView" id="683794223">
-								<reference key="NSNextResponder" ref="303642211"/>
-								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{106, 371}, {210, 28}}</string>
-								<reference key="NSSuperview" ref="303642211"/>
-								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="574412757"/>
-								<string key="NSReuseIdentifierKey">_NS:9</string>
-								<object class="NSColor" key="IBUIBackgroundColor">
-									<int key="NSColorSpace">3</int>
-									<bytes key="NSWhite">MQA</bytes>
-									<reference key="NSCustomColorSpace" ref="407970150"/>
-								</object>
-								<int key="IBUITag">1106</int>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 							</object>
 							<object class="IBUILabel" id="852048709">
@@ -1219,6 +1189,22 @@
 									<bytes key="NSWhite">MQA</bytes>
 									<reference key="NSCustomColorSpace" ref="407970150"/>
 								</object>
+								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+							</object>
+							<object class="IBUIView" id="683794223">
+								<reference key="NSNextResponder" ref="303642211"/>
+								<int key="NSvFlags">292</int>
+								<string key="NSFrame">{{106, 375}, {210, 30}}</string>
+								<reference key="NSSuperview" ref="303642211"/>
+								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView"/>
+								<string key="NSReuseIdentifierKey">_NS:9</string>
+								<object class="NSColor" key="IBUIBackgroundColor">
+									<int key="NSColorSpace">3</int>
+									<bytes key="NSWhite">MQA</bytes>
+									<reference key="NSCustomColorSpace" ref="407970150"/>
+								</object>
+								<int key="IBUITag">1106</int>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 							</object>
 						</array>
@@ -1315,7 +1301,6 @@
 							<reference ref="64291684"/>
 							<reference ref="273594901"/>
 							<reference ref="1024202445"/>
-							<reference ref="574412757"/>
 							<reference ref="904774260"/>
 							<reference ref="865842287"/>
 							<reference ref="974985839"/>
@@ -1339,7 +1324,6 @@
 							<reference ref="1009142331"/>
 							<reference ref="298514633"/>
 							<reference ref="672375911"/>
-							<reference ref="683794223"/>
 							<reference ref="687136626"/>
 							<reference ref="924418190"/>
 							<reference ref="31711024"/>
@@ -1349,6 +1333,7 @@
 							<reference ref="636592252"/>
 							<reference ref="307849873"/>
 							<reference ref="1059766742"/>
+							<reference ref="683794223"/>
 						</array>
 						<reference key="parent" ref="191373211"/>
 					</object>
@@ -1496,11 +1481,6 @@
 						<reference key="parent" ref="303642211"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">41</int>
-						<reference key="object" ref="574412757"/>
-						<reference key="parent" ref="303642211"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">79</int>
 						<reference key="object" ref="924418190"/>
 						<reference key="parent" ref="303642211"/>
@@ -1607,11 +1587,6 @@
 						<reference key="parent" ref="303642211"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">104</int>
-						<reference key="object" ref="683794223"/>
-						<reference key="parent" ref="303642211"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">105</int>
 						<reference key="object" ref="750021195"/>
 						<reference key="parent" ref="303642211"/>
@@ -1639,6 +1614,11 @@
 					<object class="IBObjectRecord">
 						<int key="objectID">115</int>
 						<reference key="object" ref="307849873"/>
+						<reference key="parent" ref="303642211"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">104</int>
+						<reference key="object" ref="683794223"/>
 						<reference key="parent" ref="303642211"/>
 					</object>
 				</array>
@@ -1693,8 +1673,6 @@
 				<string key="37.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="39.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="40.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="41.CustomClassName">DropDownList</string>
-				<string key="41.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="42.CustomClassName">DropDownList</string>
 				<string key="42.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
