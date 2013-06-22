@@ -511,19 +511,16 @@
 												<bool key="IBUIUserInteractionEnabled">NO</bool>
 												<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 												<string key="IBUIText">陈局长：</string>
-												<object class="NSColor" key="IBUITextColor">
-													<int key="NSColorSpace">1</int>
-													<bytes key="NSRGB">MC4zNjM2MjA4OTgxIDAuNzI4OTM0MTUxOCAwLjcwNTE4NTc4NDEAA</bytes>
-												</object>
+												<reference key="IBUITextColor" ref="802802026"/>
 												<nil key="IBUIHighlightedColor"/>
 												<int key="IBUIBaselineAdjustment">0</int>
 												<object class="IBUIFontDescription" key="IBUIFontDescription">
 													<int key="type">1</int>
-													<double key="pointSize">18</double>
+													<double key="pointSize">19</double>
 												</object>
 												<object class="NSFont" key="IBUIFont">
 													<string key="NSName">Helvetica</string>
-													<double key="NSSize">18</double>
+													<double key="NSSize">19</double>
 													<int key="NSfFlags">16</int>
 												</object>
 												<bool key="IBUIAdjustsFontSizeToFit">NO</bool>

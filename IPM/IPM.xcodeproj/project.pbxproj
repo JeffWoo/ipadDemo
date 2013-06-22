@@ -48,12 +48,6 @@
 		BFABCF6417002F2F0052AB04 /* DocManagerData.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFABCF6317002F2F0052AB04 /* DocManagerData.plist */; };
 		BFABCF68170039490052AB04 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFABCF66170039480052AB04 /* WebViewController.m */; };
 		BFABCF69170039490052AB04 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFABCF67170039490052AB04 /* WebViewController.xib */; };
-		BFABCF7117003BEB0052AB04 /* 0.doc in Resources */ = {isa = PBXBuildFile; fileRef = BFABCF6B17003BEB0052AB04 /* 0.doc */; };
-		BFABCF7217003BEB0052AB04 /* 0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BFABCF6C17003BEB0052AB04 /* 0.pdf */; };
-		BFABCF7317003BEB0052AB04 /* 1.doc in Resources */ = {isa = PBXBuildFile; fileRef = BFABCF6D17003BEB0052AB04 /* 1.doc */; };
-		BFABCF7417003BEB0052AB04 /* 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BFABCF6E17003BEB0052AB04 /* 1.pdf */; };
-		BFABCF7517003BEB0052AB04 /* 2.doc in Resources */ = {isa = PBXBuildFile; fileRef = BFABCF6F17003BEB0052AB04 /* 2.doc */; };
-		BFABCF7617003BEB0052AB04 /* 2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BFABCF7017003BEB0052AB04 /* 2.pdf */; };
 		BFABCF8217003DBF0052AB04 /* PopoverActionChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = BFABCF7917003DBF0052AB04 /* PopoverActionChooser.m */; };
 		BFABCF8317003DBF0052AB04 /* PopoverActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = BFABCF7B17003DBF0052AB04 /* PopoverActionSheet.m */; };
 		BFABCF8417003DBF0052AB04 /* PopoverTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFABCF7D17003DBF0052AB04 /* PopoverTouchView.m */; };
@@ -166,6 +160,12 @@
 		BFD8A88C175CD70500678A8C /* ReplyView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD8A88A175CD70500678A8C /* ReplyView.m */; };
 		BFD8A88D175CD70500678A8C /* ReplyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD8A88B175CD70500678A8C /* ReplyView.xib */; };
 		BFFE3E3B17269A8400D6CA8D /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE3E3A17269A8400D6CA8D /* CustomTextField.m */; };
+		E11401851775ECD100A484C6 /* 0.doc in Resources */ = {isa = PBXBuildFile; fileRef = E114017F1775ECD100A484C6 /* 0.doc */; };
+		E11401861775ECD100A484C6 /* 2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E11401801775ECD100A484C6 /* 2.pdf */; };
+		E11401871775ECD100A484C6 /* 1.doc in Resources */ = {isa = PBXBuildFile; fileRef = E11401811775ECD100A484C6 /* 1.doc */; };
+		E11401881775ECD100A484C6 /* 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E11401821775ECD100A484C6 /* 1.pdf */; };
+		E11401891775ECD100A484C6 /* 2.doc in Resources */ = {isa = PBXBuildFile; fileRef = E11401831775ECD100A484C6 /* 2.doc */; };
+		E114018A1775ECD100A484C6 /* 0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E11401841775ECD100A484C6 /* 0.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -228,12 +228,6 @@
 		BFABCF65170039470052AB04 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		BFABCF66170039480052AB04 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		BFABCF67170039490052AB04 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
-		BFABCF6B17003BEB0052AB04 /* 0.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = 0.doc; sourceTree = "<group>"; };
-		BFABCF6C17003BEB0052AB04 /* 0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 0.pdf; sourceTree = "<group>"; };
-		BFABCF6D17003BEB0052AB04 /* 1.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.doc; sourceTree = "<group>"; };
-		BFABCF6E17003BEB0052AB04 /* 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 1.pdf; sourceTree = "<group>"; };
-		BFABCF6F17003BEB0052AB04 /* 2.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.doc; sourceTree = "<group>"; };
-		BFABCF7017003BEB0052AB04 /* 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 2.pdf; sourceTree = "<group>"; };
 		BFABCF7817003DBF0052AB04 /* PopoverActionChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverActionChooser.h; sourceTree = "<group>"; };
 		BFABCF7917003DBF0052AB04 /* PopoverActionChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverActionChooser.m; sourceTree = "<group>"; };
 		BFABCF7A17003DBF0052AB04 /* PopoverActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverActionSheet.h; sourceTree = "<group>"; };
@@ -394,6 +388,12 @@
 		BFD8A88B175CD70500678A8C /* ReplyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReplyView.xib; sourceTree = "<group>"; };
 		BFFE3E3917269A8400D6CA8D /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
 		BFFE3E3A17269A8400D6CA8D /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
+		E114017F1775ECD100A484C6 /* 0.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = 0.doc; sourceTree = "<group>"; };
+		E11401801775ECD100A484C6 /* 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 2.pdf; sourceTree = "<group>"; };
+		E11401811775ECD100A484C6 /* 1.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.doc; sourceTree = "<group>"; };
+		E11401821775ECD100A484C6 /* 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 1.pdf; sourceTree = "<group>"; };
+		E11401831775ECD100A484C6 /* 2.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.doc; sourceTree = "<group>"; };
+		E11401841775ECD100A484C6 /* 0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 0.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -426,19 +426,6 @@
 				BFABCF4916FEF6320052AB04 /* DCRoundSwitchToggleLayer.m */,
 			);
 			path = DCRoundSwitch;
-			sourceTree = "<group>";
-		};
-		BFABCF6A17003BEB0052AB04 /* Doc */ = {
-			isa = PBXGroup;
-			children = (
-				BFABCF6B17003BEB0052AB04 /* 0.doc */,
-				BFABCF6C17003BEB0052AB04 /* 0.pdf */,
-				BFABCF6D17003BEB0052AB04 /* 1.doc */,
-				BFABCF6E17003BEB0052AB04 /* 1.pdf */,
-				BFABCF6F17003BEB0052AB04 /* 2.doc */,
-				BFABCF7017003BEB0052AB04 /* 2.pdf */,
-			);
-			path = Doc;
 			sourceTree = "<group>";
 		};
 		BFABCF7717003DBE0052AB04 /* Popover */ = {
@@ -565,6 +552,7 @@
 		BFADDBAA16FE0E7900662627 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				E114017E1775ECD100A484C6 /* Doc */,
 				BFADDC3116FE393E00662627 /* Data */,
 				BFADDBAB16FE0E7900662627 /* Images */,
 			);
@@ -791,7 +779,6 @@
 				BFABCF6317002F2F0052AB04 /* DocManagerData.plist */,
 				BFABCF871700406F0052AB04 /* MiscData.plist */,
 				BF2759D81721B27400D3FF4F /* DropdownListItemData.plist */,
-				BFABCF6A17003BEB0052AB04 /* Doc */,
 				BFADDC3F16FE4B3C00662627 /* Images */,
 			);
 			path = Data;
@@ -810,6 +797,19 @@
 				BFADDC4716FE4B3C00662627 /* pic8.jpg */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		E114017E1775ECD100A484C6 /* Doc */ = {
+			isa = PBXGroup;
+			children = (
+				E114017F1775ECD100A484C6 /* 0.doc */,
+				E11401841775ECD100A484C6 /* 0.pdf */,
+				E11401811775ECD100A484C6 /* 1.doc */,
+				E11401821775ECD100A484C6 /* 1.pdf */,
+				E11401831775ECD100A484C6 /* 2.doc */,
+				E11401801775ECD100A484C6 /* 2.pdf */,
+			);
+			path = Doc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -921,12 +921,6 @@
 				BFABCF6217002E420052AB04 /* DocManagerViewController.xib in Resources */,
 				BFABCF6417002F2F0052AB04 /* DocManagerData.plist in Resources */,
 				BFABCF69170039490052AB04 /* WebViewController.xib in Resources */,
-				BFABCF7117003BEB0052AB04 /* 0.doc in Resources */,
-				BFABCF7217003BEB0052AB04 /* 0.pdf in Resources */,
-				BFABCF7317003BEB0052AB04 /* 1.doc in Resources */,
-				BFABCF7417003BEB0052AB04 /* 1.pdf in Resources */,
-				BFABCF7517003BEB0052AB04 /* 2.doc in Resources */,
-				BFABCF7617003BEB0052AB04 /* 2.pdf in Resources */,
 				BFABCF88170040700052AB04 /* MiscData.plist in Resources */,
 				BFABCF8D17004EAB0052AB04 /* ProjectSearchView.xib in Resources */,
 				BFABCF8F170050720052AB04 /* btn_bg_grey.png in Resources */,
@@ -956,6 +950,12 @@
 				BF6D6A5B1758DFE000EBC6D1 /* AddConcludeView.xib in Resources */,
 				BFD8A88D175CD70500678A8C /* ReplyView.xib in Resources */,
 				BF69BBAC1761131000AD0722 /* doc.jpg in Resources */,
+				E11401851775ECD100A484C6 /* 0.doc in Resources */,
+				E11401861775ECD100A484C6 /* 2.pdf in Resources */,
+				E11401871775ECD100A484C6 /* 1.doc in Resources */,
+				E11401881775ECD100A484C6 /* 1.pdf in Resources */,
+				E11401891775ECD100A484C6 /* 2.doc in Resources */,
+				E114018A1775ECD100A484C6 /* 0.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1109,15 +1109,15 @@
 		BFADDBA716FE0E0E00662627 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Weibin Tan (N8F5UYYPZV)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Weibin Tan (N8F5UYYPZV)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lee Wan (9J362M6N3U)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lee Wan (9J362M6N3U)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IPM/IPM-Prefix.pch";
 				INFOPLIST_FILE = "IPM/IPM-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4E32B188-31A0-4D5F-937D-A695965AE293";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4E32B188-31A0-4D5F-937D-A695965AE293";
+				PROVISIONING_PROFILE = "6C974833-5F80-4AAB-888E-38BD52D289B0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6C974833-5F80-4AAB-888E-38BD52D289B0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;

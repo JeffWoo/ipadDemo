@@ -56,7 +56,7 @@
 - (IBAction)toggleViewDoc:(id)sender
 {
     WebViewController *controller = [[WebViewController alloc] initWithNibName:@"WebViewController" bundle:nil];
-    controller.docPath = [[NSBundle mainBundle] pathForResource:@"0" ofType:@"doc"];
+    controller.docPath = [[NSBundle mainBundle] pathForResource:@"0" ofType:@"pdf"];
     controller.present = YES;
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:controller];
     [self.viewController presentModalViewController:nav animated:YES];
