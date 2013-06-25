@@ -160,12 +160,12 @@
 		BFD8A88C175CD70500678A8C /* ReplyView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD8A88A175CD70500678A8C /* ReplyView.m */; };
 		BFD8A88D175CD70500678A8C /* ReplyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD8A88B175CD70500678A8C /* ReplyView.xib */; };
 		BFFE3E3B17269A8400D6CA8D /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE3E3A17269A8400D6CA8D /* CustomTextField.m */; };
-		E11401851775ECD100A484C6 /* 0.doc in Resources */ = {isa = PBXBuildFile; fileRef = E114017F1775ECD100A484C6 /* 0.doc */; };
-		E11401861775ECD100A484C6 /* 2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E11401801775ECD100A484C6 /* 2.pdf */; };
-		E11401871775ECD100A484C6 /* 1.doc in Resources */ = {isa = PBXBuildFile; fileRef = E11401811775ECD100A484C6 /* 1.doc */; };
-		E11401881775ECD100A484C6 /* 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E11401821775ECD100A484C6 /* 1.pdf */; };
-		E11401891775ECD100A484C6 /* 2.doc in Resources */ = {isa = PBXBuildFile; fileRef = E11401831775ECD100A484C6 /* 2.doc */; };
-		E114018A1775ECD100A484C6 /* 0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E11401841775ECD100A484C6 /* 0.pdf */; };
+		E114018A1775ECD100A484C6 /* doc0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E11401841775ECD100A484C6 /* doc0.pdf */; };
+		E11F8D871779E0F8006927DE /* ex1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E11F8D851779E0F8006927DE /* ex1.pdf */; };
+		E11F8D881779E0F8006927DE /* doc4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E11F8D861779E0F8006927DE /* doc4.pdf */; };
+		E11F8D8C1779E108006927DE /* doc2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E11F8D891779E108006927DE /* doc2.pdf */; };
+		E11F8D8D1779E108006927DE /* doc3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E11F8D8A1779E108006927DE /* doc3.pdf */; };
+		E11F8D8E1779E108006927DE /* doc1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E11F8D8B1779E108006927DE /* doc1.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -388,12 +388,12 @@
 		BFD8A88B175CD70500678A8C /* ReplyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReplyView.xib; sourceTree = "<group>"; };
 		BFFE3E3917269A8400D6CA8D /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
 		BFFE3E3A17269A8400D6CA8D /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
-		E114017F1775ECD100A484C6 /* 0.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = 0.doc; sourceTree = "<group>"; };
-		E11401801775ECD100A484C6 /* 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 2.pdf; sourceTree = "<group>"; };
-		E11401811775ECD100A484C6 /* 1.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.doc; sourceTree = "<group>"; };
-		E11401821775ECD100A484C6 /* 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 1.pdf; sourceTree = "<group>"; };
-		E11401831775ECD100A484C6 /* 2.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.doc; sourceTree = "<group>"; };
-		E11401841775ECD100A484C6 /* 0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 0.pdf; sourceTree = "<group>"; };
+		E11401841775ECD100A484C6 /* doc0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = doc0.pdf; sourceTree = "<group>"; };
+		E11F8D851779E0F8006927DE /* ex1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ex1.pdf; sourceTree = "<group>"; };
+		E11F8D861779E0F8006927DE /* doc4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = doc4.pdf; sourceTree = "<group>"; };
+		E11F8D891779E108006927DE /* doc2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = doc2.pdf; sourceTree = "<group>"; };
+		E11F8D8A1779E108006927DE /* doc3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = doc3.pdf; sourceTree = "<group>"; };
+		E11F8D8B1779E108006927DE /* doc1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = doc1.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -802,12 +802,12 @@
 		E114017E1775ECD100A484C6 /* Doc */ = {
 			isa = PBXGroup;
 			children = (
-				E114017F1775ECD100A484C6 /* 0.doc */,
-				E11401841775ECD100A484C6 /* 0.pdf */,
-				E11401811775ECD100A484C6 /* 1.doc */,
-				E11401821775ECD100A484C6 /* 1.pdf */,
-				E11401831775ECD100A484C6 /* 2.doc */,
-				E11401801775ECD100A484C6 /* 2.pdf */,
+				E11F8D851779E0F8006927DE /* ex1.pdf */,
+				E11F8D861779E0F8006927DE /* doc4.pdf */,
+				E11F8D891779E108006927DE /* doc2.pdf */,
+				E11F8D8A1779E108006927DE /* doc3.pdf */,
+				E11F8D8B1779E108006927DE /* doc1.pdf */,
+				E11401841775ECD100A484C6 /* doc0.pdf */,
 			);
 			path = Doc;
 			sourceTree = "<group>";
@@ -950,12 +950,12 @@
 				BF6D6A5B1758DFE000EBC6D1 /* AddConcludeView.xib in Resources */,
 				BFD8A88D175CD70500678A8C /* ReplyView.xib in Resources */,
 				BF69BBAC1761131000AD0722 /* doc.jpg in Resources */,
-				E11401851775ECD100A484C6 /* 0.doc in Resources */,
-				E11401861775ECD100A484C6 /* 2.pdf in Resources */,
-				E11401871775ECD100A484C6 /* 1.doc in Resources */,
-				E11401881775ECD100A484C6 /* 1.pdf in Resources */,
-				E11401891775ECD100A484C6 /* 2.doc in Resources */,
-				E114018A1775ECD100A484C6 /* 0.pdf in Resources */,
+				E114018A1775ECD100A484C6 /* doc0.pdf in Resources */,
+				E11F8D871779E0F8006927DE /* ex1.pdf in Resources */,
+				E11F8D881779E0F8006927DE /* doc4.pdf in Resources */,
+				E11F8D8C1779E108006927DE /* doc2.pdf in Resources */,
+				E11F8D8D1779E108006927DE /* doc3.pdf in Resources */,
+				E11F8D8E1779E108006927DE /* doc1.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

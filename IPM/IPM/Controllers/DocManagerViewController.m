@@ -175,20 +175,27 @@
 
 - (void)tableView:(EWMultiColumnTableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.row%2==1) {
-        //pdf
+//    if (indexPath.row%2==1) {
+//        //pdf
+//        WebViewController *controller = [[WebViewController alloc] initWithNibName:@"WebViewController" bundle:nil];
+//        controller.docPath = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"doc%d",(indexPath.row-1)/2] ofType:@"pdf"];
+//        [self.containerController.navigationController pushViewController:controller animated:YES];
+//        [controller release];
+//        
+//    } else {
+//        //doc
+//        WebViewController *controller = [[WebViewController alloc] initWithNibName:@"WebViewController" bundle:nil];
+//        controller.docPath = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"doc%d",(indexPath.row-1)/2] ofType:@"pdf"];
+//        [self.containerController.navigationController pushViewController:controller animated:YES];
+//        [controller release];
+//    }
+    if (indexPath.row<5) {
         WebViewController *controller = [[WebViewController alloc] initWithNibName:@"WebViewController" bundle:nil];
-        controller.docPath = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%d",(indexPath.row-1)/2] ofType:@"pdf"];
-        [self.containerController.navigationController pushViewController:controller animated:YES];
-        [controller release];
-        
-    } else {
-        //doc
-        WebViewController *controller = [[WebViewController alloc] initWithNibName:@"WebViewController" bundle:nil];
-        controller.docPath = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%d",(indexPath.row-1)/2] ofType:@"doc"];
+        controller.docPath = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"doc%d",indexPath.row] ofType:@"pdf"];
         [self.containerController.navigationController pushViewController:controller animated:YES];
         [controller release];
     }
+    
 }
 
 @end
