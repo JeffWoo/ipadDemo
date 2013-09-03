@@ -7,6 +7,7 @@
 //
 
 #import "StaticsManagerViewController.h"
+#import "WebViewController.h"
 #import <QuartzCore/QuartzCore.h>
 
 @interface StaticsManagerViewController ()
@@ -167,7 +168,10 @@
 
 - (void)tableView:(EWMultiColumnTableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    WebViewController *controller = [[WebViewController alloc] initWithNibName:@"WebViewController" bundle:nil];
+    controller.docPath = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"doc%d",indexPath.row%5] ofType:@"pdf"];
+    [self.containerController.navigationController pushViewController:controller animated:YES];
+    [controller release];
 }
 
 @end

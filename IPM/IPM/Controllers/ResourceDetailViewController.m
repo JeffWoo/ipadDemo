@@ -10,7 +10,7 @@
 #import "ResourceDetailView.h"
 #import "ResourceDocView.h"
 #import "ProjectClientView.h"
-#import "ResourceStatusView.h"
+#import "FollowStatusView.h"
 #import "ResourceMapView.h"
 #import "ProjectDocView.h"
 
@@ -20,7 +20,7 @@
     ProjectClientView *_projectClientView;
     ProjectClientView *_projectClientView2;
     ProjectDocView *_resourceDocView;
-    ResourceStatusView *_resourceStatusView;
+    FollowStatusView *_resourceStatusView;
     ResourceMapView *_mapView;
 }
 @end
@@ -61,6 +61,7 @@
 
     _resourceDocView = [[[NSBundle mainBundle] loadNibNamed:@"ProjectDocView" owner:self options:nil] objectAtIndex:0];
     _resourceDocView.hidden = YES;
+    _resourceDocView.containerController = self;
     [self.view addSubview:_resourceDocView];
     
     
@@ -72,7 +73,9 @@
     _projectClientView2.hidden = YES;
     [self.view addSubview:_projectClientView2];
 
-    _resourceStatusView = [[[NSBundle mainBundle] loadNibNamed:@"ResourceStatusView" owner:self options:nil] objectAtIndex:0];
+    _resourceStatusView = [[[NSBundle mainBundle] loadNibNamed:@"FollowStatusView" owner:self options:nil] objectAtIndex:0];
+    [_resourceStatusView setupViews];
+    _resourceStatusView.viewController = self;
     _resourceStatusView.hidden = YES;
     [self.view addSubview:_resourceStatusView];
 

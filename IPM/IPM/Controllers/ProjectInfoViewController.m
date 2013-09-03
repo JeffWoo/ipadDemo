@@ -76,6 +76,7 @@
     
     _projectDocView = [[[NSBundle mainBundle] loadNibNamed:@"ProjectDocView" owner:self options:nil] objectAtIndex:0];
     [_projectDocView setupView];
+    _projectDocView.containerController = self;
     _projectDocView.hidden = YES;
     [self.view addSubview:_projectDocView];
     

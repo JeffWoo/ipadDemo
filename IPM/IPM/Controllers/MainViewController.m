@@ -202,28 +202,49 @@
 
 - (IBAction)searchProjectAction:(UIButton *)sender forEvent:(UIEvent *)event
 {
-    if (self.currentPanelController == _projectManagerController) {
+//    if (self.currentPanelController == _projectManagerController) {
+//        
+//        if (_searchView) {
+//            [_searchView removeFromSuperview];
+//            _searchView = nil;
+//        } else {
+//            
+//            UIButton *dismissButton = [UIButton buttonWithType:UIButtonTypeCustom];
+//            dismissButton.frame = self.view.bounds;
+//            [dismissButton addTarget:self action:@selector(dismissSearchViewAction:) forControlEvents:UIControlEventTouchUpInside];
+//            dismissButton.tag = 99;
+//            [self.view addSubview:dismissButton];
+//            
+//            _searchView = [[[NSBundle mainBundle] loadNibNamed:@"ProjectSearchView" owner:self options:nil] objectAtIndex:0];
+//            _searchView.delegate = self;
+//            [_searchView fillOptions];
+//            _searchView.frame = CGRectMake(94, 70, 908, 200);
+//            _searchView.layer.cornerRadius = 12.0;
+//            _searchView.layer.borderWidth = 1;
+//            _searchView.layer.borderColor = [UIColor darkGrayColor].CGColor;
+//            [self.view addSubview:_searchView];
+//        }
+//    }
+    
+    if (_searchView) {
+        [_searchView removeFromSuperview];
+        _searchView = nil;
+    } else {
         
-        if (_searchView) {
-            [_searchView removeFromSuperview];
-            _searchView = nil;
-        } else {
-            
-            UIButton *dismissButton = [UIButton buttonWithType:UIButtonTypeCustom];
-            dismissButton.frame = self.view.bounds;
-            [dismissButton addTarget:self action:@selector(dismissSearchViewAction:) forControlEvents:UIControlEventTouchUpInside];
-            dismissButton.tag = 99;
-            [self.view addSubview:dismissButton];
-            
-            _searchView = [[[NSBundle mainBundle] loadNibNamed:@"ProjectSearchView" owner:self options:nil] objectAtIndex:0];
-            _searchView.delegate = self;
-            [_searchView fillOptions];
-            _searchView.frame = CGRectMake(94, 70, 908, 200);
-            _searchView.layer.cornerRadius = 12.0;
-            _searchView.layer.borderWidth = 1;
-            _searchView.layer.borderColor = [UIColor darkGrayColor].CGColor;
-            [self.view addSubview:_searchView];
-        }
+        UIButton *dismissButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        dismissButton.frame = self.view.bounds;
+        [dismissButton addTarget:self action:@selector(dismissSearchViewAction:) forControlEvents:UIControlEventTouchUpInside];
+        dismissButton.tag = 99;
+        [self.view addSubview:dismissButton];
+        
+        _searchView = [[[NSBundle mainBundle] loadNibNamed:@"ProjectSearchView" owner:self options:nil] objectAtIndex:0];
+        _searchView.delegate = self;
+        [_searchView fillOptions];
+        _searchView.frame = CGRectMake(94, 70, 908, 200);
+        _searchView.layer.cornerRadius = 12.0;
+        _searchView.layer.borderWidth = 1;
+        _searchView.layer.borderColor = [UIColor darkGrayColor].CGColor;
+        [self.view addSubview:_searchView];
     }
 }
 

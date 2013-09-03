@@ -7,6 +7,7 @@
 //
 
 #import "ResourceDocView.h"
+#import "WebViewController.h"
 
 @implementation ResourceDocView
 
@@ -145,6 +146,18 @@
 - (CGFloat)heightForHeaderCellOfTableView:(EWMultiColumnTableView *)tableView
 {
     return 42;
+}
+
+#pragma mark - EWMultiColumnTableViewDelegate
+
+- (void)tableView:(EWMultiColumnTableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    WebViewController *controller = [[WebViewController alloc] initWithNibName:@"WebViewController" bundle:nil];
+    controller.docPath = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"doc%d",indexPath.row%5] ofType:@"pdf"];
+    controller.present = YES;
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
+    [self.containerController.navigationController presentModalViewController:navController animated:YES];
+    [controller release];
 }
 
 @end

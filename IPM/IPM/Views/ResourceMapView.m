@@ -32,8 +32,8 @@
 
 - (void)dealloc
 {
-    [[LocationService sharedService] stop];
-    [[LocationService sharedService] setDelegate:nil];
+//    [[LocationService sharedService] stop];
+//    [[LocationService sharedService] setDelegate:nil];
     
     [_mapView release];
     [_locationLabel release];
@@ -42,16 +42,16 @@
 
 - (void)updateCurrentLocation
 {
-    [[LocationService sharedService] setDelegate:self];
-    [[LocationService sharedService] locate];
+//    [[LocationService sharedService] setDelegate:self];
+//    [[LocationService sharedService] locate];
 }
 
 #pragma mark - Pubic Methods
 
 - (void)updateMapLocation
 {
-    self.mapView.userTrackingMode = MKUserTrackingModeFollow;
-    self.mapView.showsUserLocation = YES;
+    self.mapView.userTrackingMode = MKUserTrackingModeNone;
+//    self.mapView.showsUserLocation = YES;
     self.mapView.delegate = self;
     
     CLLocationCoordinate2D theCoordinate;
@@ -63,7 +63,7 @@
                       [NSNumber numberWithDouble:22.14221],
                       [NSNumber numberWithDouble:23.04221],
                       [NSNumber numberWithDouble:20.14221]];
-    theCoordinate.latitude = [[lats objectAtIndex:6] doubleValue];
+    theCoordinate.latitude = [[lats objectAtIndex:rand()%7] doubleValue];
     theCoordinate.longitude = 113.28305;
     MKCoordinateSpan theSpan;
     theSpan.latitudeDelta = 0.05;
@@ -97,38 +97,38 @@
 
 #pragma mark - CLLocationManager Delegate
 
-- (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
-{
-
-    CLLocationCoordinate2D theCoordinate;
-    
-    theCoordinate.latitude = newLocation.coordinate.latitude;
-    theCoordinate.longitude = newLocation.coordinate.longitude;
-    
-    if(theCoordinate.latitude < 22 || theCoordinate.latitude > 23)
-    {
-        theCoordinate.latitude = 22.299683;
-        theCoordinate.longitude = 114.172164;
-    }
-    MKCoordinateSpan theSpan;
-    theSpan.latitudeDelta = 0.05;
-    theSpan.longitudeDelta = 0.05;
-    
-    MKCoordinateRegion theRegion;
-    theRegion.center = theCoordinate;
-    theRegion.span = theSpan;
-    [self.mapView setRegion:theRegion];
-    
-    self.mapView.delegate = self;
-
-    
-}
-
-- (void)locationManager: (CLLocationManager *)manager
-       didFailWithError: (NSError *)error
-{
-    [self.locationManager stopUpdatingLocation];
-}
+//- (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
+//{
+//
+//    CLLocationCoordinate2D theCoordinate;
+//    
+//    theCoordinate.latitude = newLocation.coordinate.latitude;
+//    theCoordinate.longitude = newLocation.coordinate.longitude;
+//    
+//    if(theCoordinate.latitude < 22 || theCoordinate.latitude > 23)
+//    {
+//        theCoordinate.latitude = 22.299683;
+//        theCoordinate.longitude = 114.172164;
+//    }
+//    MKCoordinateSpan theSpan;
+//    theSpan.latitudeDelta = 0.05;
+//    theSpan.longitudeDelta = 0.05;
+//    
+//    MKCoordinateRegion theRegion;
+//    theRegion.center = theCoordinate;
+//    theRegion.span = theSpan;
+//    [self.mapView setRegion:theRegion];
+//    
+//    self.mapView.delegate = self;
+//
+//    
+//}
+//
+//- (void)locationManager: (CLLocationManager *)manager
+//       didFailWithError: (NSError *)error
+//{
+//    [self.locationManager stopUpdatingLocation];
+//}
 
 #pragma mark - LocationServiceDelegate
 - (void)locateCurrentAddress:(NSString *)address city:(NSString *)city

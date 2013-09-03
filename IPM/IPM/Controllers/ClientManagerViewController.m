@@ -127,19 +127,19 @@
     int width = 120;
     switch (column) {
         case 0:
-            width = 280;
-            break;
-            
-        case 1:
-            width = 320;
-            break;
-            
-        case 2:
             width = 270;
             break;
             
+        case 1:
+            width = 255;
+            break;
+            
+        case 2:
+            width = 240;
+            break;
+            
         case 3:
-            width = 175;
+            width = 160;
             break;
             
         default:

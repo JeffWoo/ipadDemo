@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "EWMultiColumnTableView.h"
+#import "RootViewController.h"
 
 @interface ResourceDocView : UIView<EWMultiColumnTableViewDataSource,EWMultiColumnTableViewDelegate>
 
 @property (retain, nonatomic) EWMultiColumnTableView *tableView;
 @property (retain, nonatomic) NSMutableDictionary *tableDict;
 @property (retain, nonatomic) NSMutableArray *columnData;
-
+@property (assign, nonatomic) RootViewController *containerController;
 
 @end
