@@ -13,6 +13,7 @@
 @property (assign,nonatomic) RootViewController *currentPanelController;
 @property (retain, nonatomic) IBOutlet UIButton *projectButton;
 @property (retain, nonatomic) IBOutlet UILabel *titleLabel;
+@property (nonatomic, retain) UIPopoverController *mypopoverController;
 
 - (IBAction)projectManagerAction:(UIButton *)sender;
 - (IBAction)resourceManagerAction:(UIButton *)sender;

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18D54FF217D588FE001ED824 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D54FF117D588FE001ED824 /* MBProgressHUD.m */; };
+		18D54FF617D58B8B001ED824 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D54FF417D58B8B001ED824 /* SettingViewController.m */; };
+		18D54FF717D58B8B001ED824 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D54FF517D58B8B001ED824 /* SettingViewController.xib */; };
 		BF0F9B39170BD379008BEB55 /* info_content_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0F9B37170BD379008BEB55 /* info_content_bg.png */; };
 		BF0F9B3A170BD379008BEB55 /* info_header_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0F9B38170BD379008BEB55 /* info_header_bg.png */; };
 		BF2759D91721B27400D3FF4F /* DropdownListItemData.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF2759D81721B27400D3FF4F /* DropdownListItemData.plist */; };
@@ -169,6 +172,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18D54FF017D588FE001ED824 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		18D54FF117D588FE001ED824 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		18D54FF317D58B8B001ED824 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		18D54FF417D58B8B001ED824 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		18D54FF517D58B8B001ED824 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
 		BF0F9B37170BD379008BEB55 /* info_content_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_content_bg.png; sourceTree = "<group>"; };
 		BF0F9B38170BD379008BEB55 /* info_header_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_header_bg.png; sourceTree = "<group>"; };
 		BF2759D81721B27400D3FF4F /* DropdownListItemData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DropdownListItemData.plist; sourceTree = "<group>"; };
@@ -413,6 +421,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18D54FEE17D588FE001ED824 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				18D54FEF17D588FE001ED824 /* MBProgressHUD */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		18D54FEF17D588FE001ED824 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				18D54FF017D588FE001ED824 /* MBProgressHUD.h */,
+				18D54FF117D588FE001ED824 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		BFABCF4116FEF6320052AB04 /* DCRoundSwitch */ = {
 			isa = PBXGroup;
 			children = (
@@ -529,6 +554,7 @@
 			children = (
 				BFADDB9516FE0E0D00662627 /* AppDelegate.h */,
 				BFADDB9616FE0E0D00662627 /* AppDelegate.m */,
+				18D54FEE17D588FE001ED824 /* Libraries */,
 				BFABCFB3170095670052AB04 /* Utils */,
 				BFADDC0516FE0E8600662627 /* Controllers */,
 				BFADDBF016FE0E7F00662627 /* Views */,
@@ -735,6 +761,9 @@
 				BFABCF67170039490052AB04 /* WebViewController.xib */,
 				BFADDC0C16FE0E8600662627 /* RootViewController.h */,
 				BFADDC0D16FE0E8600662627 /* RootViewController.m */,
+				18D54FF317D58B8B001ED824 /* SettingViewController.h */,
+				18D54FF417D58B8B001ED824 /* SettingViewController.m */,
+				18D54FF517D58B8B001ED824 /* SettingViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -956,6 +985,7 @@
 				E11F8D8C1779E108006927DE /* doc2.pdf in Resources */,
 				E11F8D8D1779E108006927DE /* doc3.pdf in Resources */,
 				E11F8D8E1779E108006927DE /* doc1.pdf in Resources */,
+				18D54FF717D58B8B001ED824 /* SettingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1027,6 +1057,8 @@
 				BF6D6A561758D60C00EBC6D1 /* TaskListView.m in Sources */,
 				BF6D6A591758DFC600EBC6D1 /* AddConcludeView.m in Sources */,
 				BFD8A88C175CD70500678A8C /* ReplyView.m in Sources */,
+				18D54FF217D588FE001ED824 /* MBProgressHUD.m in Sources */,
+				18D54FF617D58B8B001ED824 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

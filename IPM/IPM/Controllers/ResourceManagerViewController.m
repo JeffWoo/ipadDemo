@@ -150,18 +150,18 @@
 
 - (CGFloat)tableView:(EWMultiColumnTableView *)tableView widthForColumn:(NSInteger)column
 {
-    int width = 120;
+    int width = 118;
     switch (column) {
         case 0:
-            width = 122;
+            width = 116;
             break;
             
         case 1:
-            width = 110;
+            width = 106;
             break;
             
         default:
-            width = 130;
+            width = 116;
             break;
     }
     return width;

@@ -54,21 +54,45 @@
     self.mapView.showsUserLocation = YES;
     self.mapView.delegate = self;
     
-    self.locationManager = [[[CLLocationManager alloc] init] autorelease];
-    self.locationManager.delegate = self;
+    CLLocationCoordinate2D theCoordinate;
     
-    if([CLLocationManager locationServicesEnabled]) {
-        self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
-        self.locationManager.distanceFilter = 1000.0f;
-        [self.locationManager startUpdatingLocation];
-        
-    } else {
-        
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"无法定位" message:@"" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"设置", nil];
-        [alert show];
-        [alert release];
-        
-    }
+    NSArray *lats = @[[NSNumber numberWithDouble:23.14221],
+                      [NSNumber numberWithDouble:24.14221],
+                      [NSNumber numberWithDouble:25.14221],
+                      [NSNumber numberWithDouble:23.64221],
+                      [NSNumber numberWithDouble:22.14221],
+                      [NSNumber numberWithDouble:23.04221],
+                      [NSNumber numberWithDouble:20.14221]];
+    theCoordinate.latitude = [[lats objectAtIndex:6] doubleValue];
+    theCoordinate.longitude = 113.28305;
+    MKCoordinateSpan theSpan;
+    theSpan.latitudeDelta = 0.05;
+    theSpan.longitudeDelta = 0.05;
+    
+    MKCoordinateRegion theRegion;
+    theRegion.center = theCoordinate;
+    theRegion.span = theSpan;
+    [self.mapView setRegion:theRegion];
+    
+    self.mapView.delegate = self;
+    
+    self.locationLabel.text = @"你当前的经纬坐标为:(23.14221,113.28305)";
+    
+//    self.locationManager = [[[CLLocationManager alloc] init] autorelease];
+//    self.locationManager.delegate = self;
+//    
+//    if([CLLocationManager locationServicesEnabled]) {
+//        self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+//        self.locationManager.distanceFilter = 1000.0f;
+//        [self.locationManager startUpdatingLocation];
+//        
+//    } else {
+//        
+//        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"无法定位" message:@"" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"设置", nil];
+//        [alert show];
+//        [alert release];
+//        
+//    }
 }
 
 #pragma mark - CLLocationManager Delegate

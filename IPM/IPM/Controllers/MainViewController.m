@@ -14,8 +14,10 @@
 #import "DocManagerViewController.h"
 #import "ProjectSearchView.h"
 #import "PopoverViewController.h"
+#import "MBProgressHUD.h"
+#import "SettingViewController.h"
 
-@interface MainViewController () <PopoverViewControllerDelegate,ProjectSearchViewDelegate>
+@interface MainViewController () <PopoverViewControllerDelegate,ProjectSearchViewDelegate,UIPopoverControllerDelegate>
 {
     ProjectManagerViewController *_projectManagerController;
     ResourceManagerViewController *_resourceManagerController;
@@ -161,30 +163,41 @@
 
 - (IBAction)syncAction:(UIButton *)sender
 {
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    hud.mode = MBProgressHUDModeIndeterminate;
+    hud.completionBlock = ^() {
+        
+        MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+        hud.mode = MBProgressHUDModeText;
+        hud.labelText = @"同步成功";
+        [hud show:YES];
+        [hud hide:YES afterDelay:1.4];
+        
+    };
+    
+    hud.labelText = @"正在同步...";
+    [hud show:YES];
+    [hud hide:YES afterDelay:3.5];
 }
 
 - (IBAction)settingAction:(UIButton *)sender forEvent:(UIEvent *)event
 {
-//    UIView *tagPopoverView = [[UIView alloc] initWithFrame:CGRectMake(0,0, 160, 100)];
-//    tagPopoverView.backgroundColor = [UIColor lightGrayColor];
-//    
-//    UIButton *logoutButton = [UIButton buttonWithType:UIButtonTypeCustom];
-//    logoutButton.frame = CGRectMake(20,40, 120, 36);
-//    [logoutButton setTitle:@"注销登录" forState:UIControlStateNormal];
-//    [logoutButton setBackgroundImage:[UIImage imageNamed:@"btn_bg_grey"] forState:UIControlStateNormal];
-//    [logoutButton addTarget:self action:@selector(logout:) forControlEvents:UIControlEventTouchUpInside];
-//    [tagPopoverView addSubview:logoutButton];
-//    
-//    [_popover release];
-//    _popover = [[PopoverViewController alloc] initWithView:tagPopoverView];
-//    [tagPopoverView release];
-//    _popover.delegate = self;
-//    [_popover showPopoverWithTouch:event];
+    SettingViewController* controller = [[SettingViewController alloc] initWithNibName:@"SettingViewController" bundle:nil];
+    controller.holderViewController = self;
+    UIPopoverController* aPopover = [[UIPopoverController alloc] initWithContentViewController:controller];
+    aPopover.delegate = self;
+    [controller release];
+
+    self.mypopoverController = aPopover;
+    [aPopover release];
+    
+    [self.mypopoverController setPopoverContentSize:CGSizeMake(260, 365) animated:NO];
+    [self.mypopoverController presentPopoverFromRect:sender.frame inView:self.view permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
 }
 
-- (void)logout:(UIButton *)sender
+- (void)popoverControllerDidDismissPopover:(UIPopoverController *)popoverController
 {
-    [self.navigationController popViewControllerAnimated:YES];
+    
 }
 
 - (IBAction)searchProjectAction:(UIButton *)sender forEvent:(UIEvent *)event

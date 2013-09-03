@@ -12,12 +12,14 @@
 #import "ProjectClientView.h"
 #import "ResourceStatusView.h"
 #import "ResourceMapView.h"
+#import "ProjectDocView.h"
 
 @interface ResourceDetailViewController ()
 {
     ResourceDetailView *_resourceDetailView;
     ProjectClientView *_projectClientView;
-    ResourceDocView *_resourceDocView;
+    ProjectClientView *_projectClientView2;
+    ProjectDocView *_resourceDocView;
     ResourceStatusView *_resourceStatusView;
     ResourceMapView *_mapView;
 }
@@ -40,7 +42,7 @@
     
     self.navigationController.navigationBarHidden = NO;
     
-    NSArray *segmentedArray = [NSArray arrayWithObjects:@"资源详情",@"资源文档",@"项目/客户关联",@"跟进情况",@"地图位置",nil];
+    NSArray *segmentedArray = [NSArray arrayWithObjects:@"资源详情",@"资源文档",@"项目关联", @"客户关联", @"跟进情况",@"地图位置",nil];
     UISegmentedControl *segmentedControl = [[UISegmentedControl alloc] initWithItems:segmentedArray];
     segmentedControl.frame = CGRectMake(0, 6, 600, 32);
     segmentedControl.selectedSegmentIndex = 0;
@@ -53,13 +55,22 @@
     _resourceDetailView.hidden = YES;
     [self.view addSubview:_resourceDetailView];
     
-    _resourceDocView = [[[NSBundle mainBundle] loadNibNamed:@"ResourceDocView" owner:self options:nil] objectAtIndex:0];
+//    _resourceDocView = [[[NSBundle mainBundle] loadNibNamed:@"ResourceDocView" owner:self options:nil] objectAtIndex:0];
+//    _resourceDocView.hidden = YES;
+//    [self.view addSubview:_resourceDocView];
+
+    _resourceDocView = [[[NSBundle mainBundle] loadNibNamed:@"ProjectDocView" owner:self options:nil] objectAtIndex:0];
     _resourceDocView.hidden = YES;
     [self.view addSubview:_resourceDocView];
-
+    
+    
     _projectClientView = [[[NSBundle mainBundle] loadNibNamed:@"ProjectClientView" owner:self options:nil] objectAtIndex:0];
     _projectClientView.hidden = YES;
     [self.view addSubview:_projectClientView];
+    
+    _projectClientView2 = [[[NSBundle mainBundle] loadNibNamed:@"ProjectClientView" owner:self options:nil] objectAtIndex:0];
+    _projectClientView2.hidden = YES;
+    [self.view addSubview:_projectClientView2];
 
     _resourceStatusView = [[[NSBundle mainBundle] loadNibNamed:@"ResourceStatusView" owner:self options:nil] objectAtIndex:0];
     _resourceStatusView.hidden = YES;
@@ -103,10 +114,14 @@
             break;
             
         case 3:
-            self.currentView = _resourceStatusView;
+            self.currentView = _projectClientView2;
             break;
             
         case 4:
+            self.currentView = _resourceStatusView;
+            break;
+            
+        case 5:
             self.currentView = _mapView;
             [_mapView updateCurrentLocation];
             [_mapView updateMapLocation];
