@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>文档名称</key>
+	<array>
+		<string>总部经济发展政策修订稿</string>
+		<string>外商总部企业认定工作通知</string>
+		<string>总部企业认定工作通知</string>
+		<string>再次征求促进总部经济政策</string>
+		<string>第二季重点跟踪项目情况表</string>
+	</array>
+	<key>文档类型</key>
+	<array>
+		<string>doc</string>
+		<string>pdf</string>
+		<string>doc</string>
+		<string>pdf</string>
+		<string>doc</string>
+	</array>
+	<key>创建人</key>
+	<array>
+		<string>林部长</string>
+		<string>陈局长</string>
+		<string>林部长</string>
+		<string>陈局长</string>
+		<string>林部长</string>
+	</array>
+	<key>创建时间</key>
+	<array>
+		<string>2013-2-18</string>
+		<string>2013-2-18</string>
+		<string>2013-2-18</string>
+		<string>2013-2-18</string>
+		<string>2013-2-18</string>
+	</array>
+</dict>
+</plist>
