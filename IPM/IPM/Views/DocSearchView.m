@@ -35,8 +35,8 @@
     self.keyProjectOption.optionTitle = @"选择政策类型";
     self.projectStatusOption.optionTitle = @"选择状态";
     
-    self.keyProjectOption.options = [NSMutableArray arrayWithObjects:@"政策类型1",nil];
-    self.projectStatusOption.options = [NSMutableArray arrayWithObjects:@"状态1",nil];
+//    self.keyProjectOption.options = [NSMutableArray arrayWithObjects:@"政策类型1",nil];
+    self.projectStatusOption.options = [NSMutableArray arrayWithObjects:@"有效", @"无效",nil];
 }
 
 - (IBAction)searchAction:(UIButton *)sender

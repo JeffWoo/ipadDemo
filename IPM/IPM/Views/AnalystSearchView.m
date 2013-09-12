@@ -36,9 +36,11 @@
     self.projectStatusOption.optionTitle = @"选择分类";
     self.investQuotaOption.optionTitle = @"选择销售类型";
     
-    self.keyProjectOption.options = [NSMutableArray arrayWithObjects:@"区域1", @"区域2",nil];
-    self.projectStatusOption.options = [NSMutableArray arrayWithObjects:@"分类1",nil];
-    self.investQuotaOption.options = [NSMutableArray arrayWithObjects:@"销售类型1",nil];
+    self.keyProjectOption.options = [NSMutableArray arrayWithObjects:
+                                     @"行政区2",
+                                     @"行政区1",nil];
+    self.projectStatusOption.options = [NSMutableArray arrayWithObjects:@"三旧改造", @"土地", @"住宅", @"商铺", @"写字楼", @"厂房或仓库", @"未分类资源",nil];
+    self.investQuotaOption.options = [NSMutableArray arrayWithObjects:@"可租", @"可售", @"租售皆可", @"已租售",nil];
 }
 
 - (IBAction)searchAction:(UIButton *)sender
