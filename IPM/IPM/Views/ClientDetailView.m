@@ -37,7 +37,7 @@
     self.industryDropdownList.optionTitle = @"所属行业";
     self.clientTypeDropdownList.optionTitle = @"选择客户类型";
     
-    self.clientSourceDropdownList.options = [NSMutableArray arrayWithObjects:@"港澳",nil];
+    self.clientSourceDropdownList.options = [NSMutableArray arrayWithObjects:@"中国大陆",@"港澳",@"亚洲",@"非洲",@"南美",@"北美",@"欧洲",@"其他",@"大洋洲",@"台湾",nil];
     self.industryDropdownList.options = [NSMutableArray arrayWithObjects:
                                    @"食品加工",
                                    @"纺织、皮革、服装",

@@ -14,6 +14,7 @@
 @property (retain, nonatomic) IBOutlet UIView *authView;
 @property (retain, nonatomic) IBOutlet UIImageView *imageView;
 @property (retain, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (retain, nonatomic) IBOutlet UIImageView *photoBgImageView;
 
 
 - (void)setupViews;

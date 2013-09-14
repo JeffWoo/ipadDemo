@@ -38,13 +38,16 @@
     self.rentView.layer.borderWidth = 1;
     self.rentView.layer.borderColor = [UIColor redColor].CGColor;
     
+//    UIImage *image = [self.photoBgImageView.image resizableImageWithCapInsets:UIEdgeInsetsMake(8, 8, 8, 8)];
+//    self.photoBgImageView.image = image;
+    
     self.imageView.image = [UIImage imageNamed:@"pic1.jpg"];
     
-    int xPos = 10;
+    int xPos = 0;
     for (int i = 0; i < 6; i++) {
         
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-        button.frame = CGRectMake(xPos, 10, 85, self.scrollView.frame.size.height-20);
+        button.frame = CGRectMake(xPos, 0, 90, 90);
         
         [button setImage:[UIImage imageNamed:[NSString stringWithFormat:@"pic%d.jpg",i+1]] forState:UIControlStateNormal];
         button.imageView.contentMode = UIViewContentModeScaleToFill;
@@ -53,7 +56,7 @@
         
         [self.scrollView addSubview:button];
         
-        xPos += 85;
+        xPos += 90;
     }
     
     [self.scrollView setContentSize:CGSizeMake(640, self.scrollView.frame.size.height)];
@@ -72,6 +75,7 @@
     [_rentView release];
     [_imageView release];
     [_scrollView release];
+    [_photoBgImageView release];
     [super dealloc];
 }
 @end
